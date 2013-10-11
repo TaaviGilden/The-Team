@@ -1,5 +1,5 @@
 package ee.ut.math.tvt.TheTeam;
-
+// This is a comment
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
