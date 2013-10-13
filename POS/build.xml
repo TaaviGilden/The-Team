@@ -9,12 +9,11 @@
     <property name="main-class"  value="ee.ut.math.tvt.TheTeam.Intro"/>
 
 
-
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
 
-    <target name="compile">
+    <target name="build">
         <mkdir dir="${classes.dir}"/>
         <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
     	<copy todir="${jar.dir}">
@@ -22,8 +21,12 @@
    		</copy> 
     </target>
 
-    <target name="jar" depends="compile">
+    <target name="dist" depends="build">
         <mkdir dir="${jar.dir}"/>
+    	<propertyfile file="version.properties">
+    		<entry key="build.revision.number" type="int" default="0" operation="+"/>
+    		<entry key="build.number" type="int" value="0.0.build.revision.number"/>
+    	</propertyfile>
         <jar destfile="${jar.dir}/TheTeam.jar" basedir="${classes.dir}">
             <manifest>
                 <attribute name="Main-Class" value="${main-class}"/>
@@ -31,11 +34,11 @@
         </jar>
     </target>
 
-    <target name="run" depends="jar">
+    <target name="run" depends="dist">
         <java jar="${jar.dir}/TheTeam.jar" fork="true"/>
     </target>
 
-    <target name="clean-build" depends="clean,jar"/>
+    <target name="clean-build" depends="clean,dist"/>
 
     <target name="main" depends="clean,run"/>
 
