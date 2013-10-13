@@ -17,7 +17,7 @@
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
         <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
-    	<copy todir="${classes.dir}">
+    	<copy todir="${jar.dir}">
     		<fileset dir="." includes="**/*.properties **/*.png"/>
    		</copy> 
     </target>
