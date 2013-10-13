@@ -69,8 +69,6 @@ public class IntroUI extends JFrame {
 		logo.setBounds(380, 160, 100, 100);
 		frame.add(logo);
 
-		// Miskipärast ei töötanud setBounds meetod viimasel lisatud JLabelil
-		// ning seega lisasin tühja JLabeli
 		JLabel empty = new JLabel("");
 		empty.setBounds(0, 150, 0, 0);
 		frame.add(empty);
