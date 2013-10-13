@@ -23,10 +23,16 @@
 
     <target name="dist" depends="build">
         <mkdir dir="${jar.dir}"/>
-    	<propertyfile file="version.properties">
-    		<entry key="build.revision.number" type="int" default="0" operation="+"/>
-    		<entry key="build.number" type="int" value="0.0.build.revision.number"/>
-    	</propertyfile>
+    	<sequential>
+    		<propertyfile file="version.properties">
+    	    	<entry key="build.revision.number" type="int" default="0" operation="+"/>
+    	    </propertyfile>
+    	    <property file="version.properties"/>
+    	   	<propertyfile file="version.properties">
+    	    	<entry key="build.revision.number" type="int" value="${build.revision.number}"/>
+    	    	<entry key="build.number" type="string" value="0.0.${build.revision.number}"/>
+    	    </propertyfile>
+    	</sequential>
         <jar destfile="${jar.dir}/TheTeam.jar" basedir="${classes.dir}">
             <manifest>
                 <attribute name="Main-Class" value="${main-class}"/>
