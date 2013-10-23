@@ -1,12 +1,13 @@
 package ee.ut.math.tvt.salessystem.ui.tabs;
 
+import org.apache.log4j.Logger;
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Logger;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
