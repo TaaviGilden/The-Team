@@ -17,6 +17,7 @@ public abstract class SalesSystemTableModel<T extends DisplayableItem> extends
     private static final long serialVersionUID = 1L;
 
     protected List<T> rows;
+    protected List<T> completePurchase;
     protected final String[] headers;
 
     public SalesSystemTableModel(final String[] headers) {

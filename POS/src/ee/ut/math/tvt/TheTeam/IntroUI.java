@@ -1,79 +1,71 @@
-package ee.ut.math.tvt.TheTeam;
-// This is a comment
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
+
+package ee.ut.math.tvt.TheTeam;
+
+import java.awt.*;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
+import javax.swing.*;
 
 public class IntroUI extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 
-	public static void iUI() {
+	public IntroUI() {
 
-		Properties app = new Properties();
-		Properties ver = new Properties();
+		setTitle("Intro");
+		setLayout(null);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+		Dimension actualSize = getContentPane().getSize();
+		setLocation((screen.width - actualSize.width) / 2,
+				(screen.height - actualSize.height) / 2);
 
+		Container intro = getContentPane();
+		intro.setLayout(new BoxLayout(intro, BoxLayout.Y_AXIS));
+		intro.setBackground(new Color(255, 255, 255));
+
+		Properties appProp = new Properties();
+		Properties verProp = new Properties();
 		try {
-
-			app.load(new FileInputStream("application.properties"));
-			ver.load(new FileInputStream("version.properties"));
-
-		} catch (IOException ex) {
-			ex.printStackTrace();
+			appProp.load(new FileInputStream("application.properties"));
+			verProp.load(new FileInputStream("version.properties"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
-		JFrame frame = new JFrame();
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(500, 300);
-		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-		frame.setLocation(dim.width / 2 - frame.getSize().width / 2, dim.height
-				/ 2 - frame.getSize().height / 2);
-		frame.setResizable(false);
-		frame.setTitle("Intro");
-		frame.getContentPane().setBackground(Color.WHITE);
-
 		JLabel teamName = new JLabel("Team name: "
-				+ app.getProperty("TeamName"));
-		teamName.setBounds(1, 10, 200, 30);
-		frame.add(teamName);
+				+ appProp.getProperty("TeamName"));
+		intro.add(teamName);
+		JLabel teamLeader = new JLabel("Team leader: "
+				+ appProp.getProperty("TeamLeader"));
+		intro.add(teamLeader);
 
-		JLabel teamLeader = new JLabel("Team Leader: "
-				+ app.getProperty("TeamLeader"));
-		teamLeader.setBounds(1, 40, 200, 30);
-		frame.add(teamLeader);
-
-		JLabel teamLeaderMail = new JLabel("Team leader email: "
-				+ app.getProperty("TeamLeaderEmail"));
-		teamLeaderMail.setBounds(1, 70, 350, 30);
-		frame.add(teamLeaderMail);
-
+		JLabel leaderEmail = new JLabel("Team Leader Email: "
+				+ appProp.getProperty("TeamLeaderEmail"));
+		intro.add(leaderEmail);
 		JLabel teamMembers = new JLabel("Team members: "
-				+ app.getProperty("TeamMembers"));
-		teamMembers.setBounds(1, 100, 500, 30);
-		frame.add(teamMembers);
+				+ appProp.getProperty("TeamMembers"));
 
-		JLabel version = new JLabel("Version: "
-				+ ver.getProperty("build.number"));
-		version.setBounds(1, 130, 200, 30);
-		frame.add(version);
+		intro.add(teamMembers);
 
-		ImageIcon pilt = new ImageIcon("logo.png");
-		JLabel logo = new JLabel(pilt);
-		logo.setBounds(380, 160, 100, 100);
-		frame.add(logo);
+		JLabel buildVersion = new JLabel("Version: "
+				+ verProp.getProperty("build.number"));
+		intro.add(buildVersion);
 
-		JLabel empty = new JLabel("");
-		empty.setBounds(0, 150, 0, 0);
-		frame.add(empty);
+		ImageIcon logo = new ImageIcon("logo.PNG");
+		JLabel logoLabel = new JLabel(logo);
+		intro.add(logoLabel);
 
-		frame.setVisible(true);
+		pack();
 
 	}
+
 }
+

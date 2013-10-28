@@ -15,6 +15,7 @@ import javax.swing.JPanel;
 
 import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
 import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
+import ee.ut.math.tvt.salessystem.ui.ConfirmUI;
 import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
 import ee.ut.math.tvt.salessystem.ui.panels.PurchaseItemPanel;
 
@@ -107,17 +108,18 @@ public class PurchaseTab {
 
   // Creates the "Confirm" button
   private JButton createConfirmButton() {
-    JButton b = new JButton("Confirm");
-    b.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent e) {
-        submitPurchaseButtonClicked();
-      }
-    });
-    b.setEnabled(false);
+	    JButton b = new JButton("Confirm");
+	    b.addActionListener(new ActionListener() {
+	      public void actionPerformed(ActionEvent e) {
+	     ConfirmUI confirmUI = new ConfirmUI();
+	     confirmUI.setVisible(true);
+	        submitPurchaseButtonClicked();
+	      }
+	    });
+	    b.setEnabled(false);
 
-    return b;
-  }
-
+	    return b;
+	  }
 
   // Creates the "Cancel" button
   private JButton createCancelButton() {

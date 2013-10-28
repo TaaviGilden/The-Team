@@ -1,10 +1,15 @@
 package ee.ut.math.tvt.salessystem.domain.controller.impl;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
 import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
+import ee.ut.math.tvt.salessystem.domain.data.HistoryItem;
 import ee.ut.math.tvt.salessystem.domain.data.SoldItem;
 import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 
@@ -13,12 +18,29 @@ import ee.ut.math.tvt.salessystem.domain.data.StockItem;
  */
 public class SalesDomainControllerImpl implements SalesDomainController {
 	
+	private List<HistoryItem> purchaseHistory = new ArrayList<HistoryItem>();
+	
+	public List<HistoryItem> loadHistory() {
+		return purchaseHistory;
+	}
+	
 	public void submitCurrentPurchase(List<SoldItem> goods) throws VerificationFailedException {
 		// Let's assume we have checked and found out that the buyer is underaged and
 		// cannot buy chupa-chups
-		throw new VerificationFailedException("Underaged!");
+		//throw new VerificationFailedException("Underaged!");
 		// XXX - Save purchase
-	}
+		Calendar cal = Calendar.getInstance();
+    	SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
+    	String time = timeFormat.format(cal.getTime());
+    	
+		DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+		Date date = new Date();
+		String currentDate = dateFormat.format(date);
+		
+		HistoryItem hItem = new HistoryItem(currentDate, time, goods);
+		purchaseHistory.add(hItem);
+		
+		}
 
 	public void cancelCurrentPurchase() throws VerificationFailedException {				
 		// XXX - Cancel current purchase

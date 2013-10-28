@@ -13,11 +13,13 @@ public class SalesSystemModel {
 
     // Warehouse model
     private StockTableModel warehouseTableModel;
-    
+    // History model
+    private StockTableModel purchaseHistoryTableModel;
     // Current shopping cart model
     private PurchaseInfoTableModel currentPurchaseTableModel;
 
     private final SalesDomainController domainController;
+    
 
     /**
      * Construct application model.
@@ -27,10 +29,13 @@ public class SalesSystemModel {
         this.domainController = domainController;
         
         warehouseTableModel = new StockTableModel();
+        purchaseHistoryTableModel = new StockTableModel();
         currentPurchaseTableModel = new PurchaseInfoTableModel();
 
         // populate stock model with data from the warehouse
         warehouseTableModel.populateWithData(domainController.loadWarehouseState());
+        
+//        purchaseHistoryTableModel.populateWithData(domainController.loadHistory());
 
     }
 
@@ -41,5 +46,7 @@ public class SalesSystemModel {
     public PurchaseInfoTableModel getCurrentPurchaseTableModel() {
         return currentPurchaseTableModel;
     }
+    
+    
     
 }
