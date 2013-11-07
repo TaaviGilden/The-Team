@@ -53,7 +53,7 @@
             </jar>
         </target>
            
-            <target name="run" depends="build">
+            <target name="run" depends="dist">
                     <java fork="true" classname="${main-class}" classpathref="run.classpath"/>  
                 </target>
      
