@@ -18,7 +18,7 @@ import ee.ut.math.tvt.salessystem.domain.data.StockItem;
  */
 public class SalesDomainControllerImpl implements SalesDomainController {
 	
-	private List<HistoryItem> purchaseHistory = new ArrayList<HistoryItem>();
+	List<HistoryItem> purchaseHistory = new ArrayList<HistoryItem>();
 	
 	public List<HistoryItem> loadHistory() {
 		return purchaseHistory;
@@ -29,17 +29,8 @@ public class SalesDomainControllerImpl implements SalesDomainController {
 		// cannot buy chupa-chups
 		//throw new VerificationFailedException("Underaged!");
 		// XXX - Save purchase
-		Calendar cal = Calendar.getInstance();
-    	SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
-    	String time = timeFormat.format(cal.getTime());
-    	
-		DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-		Date date = new Date();
-		String currentDate = dateFormat.format(date);
-		
-		HistoryItem hItem = new HistoryItem(currentDate, time, goods);
-		purchaseHistory.add(hItem);
-		
+//		HistoryItem hItem = new HistoryItem(getId(), HistoryItem.getTime(), HistoryItem.getDate(), goods);
+//		purchaseHistory.add(hItem);
 		}
 
 	public void cancelCurrentPurchase() throws VerificationFailedException {				

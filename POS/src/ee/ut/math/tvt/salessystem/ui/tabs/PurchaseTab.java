@@ -111,7 +111,7 @@ public class PurchaseTab {
 	    JButton b = new JButton("Confirm");
 	    b.addActionListener(new ActionListener() {
 	      public void actionPerformed(ActionEvent e) {
-	     ConfirmUI confirmUI = new ConfirmUI();
+	     ConfirmUI confirmUI = new ConfirmUI(domainController, model);
 	     confirmUI.setVisible(true);
 	        submitPurchaseButtonClicked();
 	      }
@@ -174,8 +174,7 @@ public class PurchaseTab {
     try {
       log.debug("Contents of the current basket:\n" + model.getCurrentPurchaseTableModel());
       domainController.submitCurrentPurchase(
-          model.getCurrentPurchaseTableModel().getTableRows()
-      );
+          model.getCurrentPurchaseTableModel().getTableRows());
       endSale();
       model.getCurrentPurchaseTableModel().clear();
     } catch (VerificationFailedException e1) {

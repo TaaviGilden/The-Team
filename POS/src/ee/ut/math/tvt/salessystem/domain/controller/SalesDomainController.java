@@ -7,6 +7,7 @@ import ee.ut.math.tvt.salessystem.domain.data.HistoryItem;
 import ee.ut.math.tvt.salessystem.domain.data.SoldItem;
 import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
+import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
 
 /**
  * Sales domain controller is responsible for the domain specific business
@@ -41,11 +42,11 @@ public interface SalesDomainController {
     /**
      * Commit business transaction - purchsae of goods.
      * 
-     * @param goods
+     * @param soldItems
      *            Goods that the buyer has chosen to buy.
      * @throws VerificationFailedException
      */
-    public void submitCurrentPurchase(List<SoldItem> goods)
+    public void submitCurrentPurchase(List<SoldItem> soldItems)
             throws VerificationFailedException;
 
     

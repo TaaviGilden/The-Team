@@ -19,26 +19,36 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 
+import org.apache.log4j.Logger;
 
-
-
+import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
 import ee.ut.math.tvt.salessystem.domain.controller.impl.SalesDomainControllerImpl;
+import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
 import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
 import ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab;
 import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
 
 
 public class ConfirmUI extends JFrame {
+
+	private static final Logger log = Logger.getLogger(PurchaseTab.class);
+	private final SalesDomainController domainController;
+
+
 	public double total;
 	public double change;
 	public double paymentAmount;
 	public JTextField changeText;
-//	public List<SoldItem> a = model.getCurrentPurchaseTableModel().getTableRows();
+	//	public List<SoldItem> a = model.getCurrentPurchaseTableModel().getTableRows();
 
 	private static final long serialVersionUID = 1L;
+	private SalesSystemModel model;
 
-	public ConfirmUI() {
+	public ConfirmUI(SalesDomainController controller,
+			SalesSystemModel model) {
 
+		this.domainController = controller;
+		this.model = model;
 		total = PurchaseInfoTableModel.totalSum;
 
 		setTitle("");
@@ -121,7 +131,7 @@ public class ConfirmUI extends JFrame {
 		accept.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(total<=paymentAmount&&paymentAmount>0){
-//					submitCurrentPurchase(model.getCurrentPurchaseTableModel().getTableRows());
+					acceptButtonClicked();
 					dispose();
 				}
 				else{
@@ -140,6 +150,17 @@ public class ConfirmUI extends JFrame {
 		confirm.add(cancel);
 		pack();
 
+	}
+
+	protected void acceptButtonClicked() {
+		log.info("Sale saved");
+		try {
+			domainController.submitCurrentPurchase(
+					model.getCurrentPurchaseTableModel().getTableRows());
+			model.getCurrentPurchaseTableModel().clear();
+		} catch (VerificationFailedException e1) {
+			log.error(e1.getMessage());
+		}
 	}
 
 }

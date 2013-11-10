@@ -30,10 +30,10 @@ public class HistoryTab {
 	public HistoryTab() {
 	} 
 
-	public Component draw() {
+	public Component draw() {	
 		JPanel panel = new JPanel();
 		
-	    JTable table = new JTable();
+	    JTable table = new JTable(model.getHistoryTableModel());
 	    JTableHeader header = table.getTableHeader();
 	    
 	    panel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
