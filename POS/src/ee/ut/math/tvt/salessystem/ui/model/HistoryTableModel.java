@@ -20,12 +20,10 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 	protected Object getColumnValue(HistoryItem item, int columnIndex) {
 		switch (columnIndex) {
 		case 0:
-			return item.getId();
-		case 1:
 			return item.getTime();
-		case 2:
+		case 1:
 			return item.getDate();
-		case 3:
+		case 2:
 			return item.getDetails();
 		}
 		throw new IllegalArgumentException("Column index out of range");
@@ -39,6 +37,7 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 	public void addItem(final HistoryItem historyItem) {
 		rows.add(historyItem);
 		fireTableDataChanged();
+		log.debug("Added one history item");
 	}
 
 }

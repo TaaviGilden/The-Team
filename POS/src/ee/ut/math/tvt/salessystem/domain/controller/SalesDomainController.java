@@ -15,6 +15,7 @@ import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
  */
 public interface SalesDomainController {
 
+	public HistoryItem gethItem();
 	public List<HistoryItem> loadHistory();
     /**
      * Load the current state of the warehouse.

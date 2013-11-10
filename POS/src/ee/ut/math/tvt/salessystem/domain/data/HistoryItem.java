@@ -14,15 +14,14 @@ import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
 
 public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  {
 
-//	private Long id;
+	private Long id;
 	private String date;
 	private String time;
 	private List<SoldItem> soldGoods;
 
-	public HistoryItem(Long id, String date, String time,
+	public HistoryItem(String date, String time,
 			List<SoldItem> soldGoods) {
 		super();
-//		this.id = id;
 		this.date = date;
 		this.time = time;
 		this.soldGoods = soldGoods;
@@ -63,5 +62,9 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public String toString() {
+        return getTime();
+    }
 
 }

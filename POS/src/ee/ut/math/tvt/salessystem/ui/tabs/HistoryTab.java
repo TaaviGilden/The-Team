@@ -35,6 +35,8 @@ public class HistoryTab {
 		
 	    JTable table = new JTable(model.getHistoryTableModel());
 	    JTableHeader header = table.getTableHeader();
+		header.setReorderingAllowed(false);
+		JScrollPane scrollPane = new JScrollPane(table);
 	    
 	    panel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 
@@ -42,6 +44,7 @@ public class HistoryTab {
 	    GridBagConstraints gc = new GridBagConstraints();
 	    panel.setLayout(gb);
 	    panel.add(table);
+	    panel.add(scrollPane);
 	    gc.weighty = 1.0;
 	    gc.fill = GridBagConstraints.BOTH;
 	    return panel;

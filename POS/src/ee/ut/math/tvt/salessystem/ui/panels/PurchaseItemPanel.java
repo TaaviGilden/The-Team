@@ -137,6 +137,10 @@ public class PurchaseItemPanel extends JPanel {
 
 		// == Add components to the panel
 
+		// - name
+		panel.add(new JLabel("Name:"));
+		panel.add(nameField);
+		
 		// - bar code
 		panel.add(new JLabel("Bar code:"));
 		panel.add(barCodeField);
@@ -144,10 +148,6 @@ public class PurchaseItemPanel extends JPanel {
 		// - amount
 		panel.add(new JLabel("Amount:"));
 		panel.add(quantityField);
-
-		// - name
-		panel.add(new JLabel("Name:"));
-		panel.add(nameField);
 
 		// - price
 		panel.add(new JLabel("Price:"));
