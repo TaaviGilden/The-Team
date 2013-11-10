@@ -27,7 +27,16 @@ public class SalesDomainControllerImpl implements SalesDomainController {
 		// cannot buy chupa-chups
 		//throw new VerificationFailedException("Underaged!");
 		// XXX - Save purchase
+//		StockItem sitem1 = new StockItem(6l, "Hui", "Hui2", 9.0);
+//		SoldItem item1 = new SoldItem(sitem1, 1);
+//		List<SoldItem> stuff = null;
+//		stuff.add(item1);
+		System.out.println(goods.isEmpty());
 		HistoryItem hItem = new HistoryItem(HistoryItem.getTime(), HistoryItem.getDate(), goods);
+		System.out.println(goods);
+		System.out.println(goods.toString());
+		System.out.println(hItem);
+		purchaseHistory.add(hItem);
 		}
 	
 	public List<HistoryItem> loadHistory() {

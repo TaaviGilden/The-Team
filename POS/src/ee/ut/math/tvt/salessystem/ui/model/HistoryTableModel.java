@@ -5,7 +5,6 @@ import java.util.NoSuchElementException;
 import org.apache.log4j.Logger;
 
 import ee.ut.math.tvt.salessystem.domain.data.HistoryItem;
-import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 
 public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 	private static final long serialVersionUID = 1L;
@@ -13,7 +12,7 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 	private static final Logger log = Logger.getLogger(StockTableModel.class);
 
 	public HistoryTableModel() {
-		super(new String[] {"Id", "Time", "Date", "Details"});
+		super(new String[] {"Time", "Date", "Details"});
 	}
 
 	@Override
@@ -24,7 +23,7 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 		case 1:
 			return item.getDate();
 		case 2:
-			return item.getDetails();
+			return "Click for details";
 		}
 		throw new IllegalArgumentException("Column index out of range");
 	}

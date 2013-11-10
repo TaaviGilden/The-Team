@@ -17,17 +17,19 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 	private Long id;
 	private String date;
 	private String time;
-	private List<SoldItem> soldGoods;
+	private static List<SoldItem> soldGoods;
+	private String detailid;
 
 	public HistoryItem(String date, String time,
 			List<SoldItem> soldGoods) {
 		super();
 		this.date = date;
 		this.time = time;
+		this.detailid = "Detailid";
 		this.soldGoods = soldGoods;
 	}
 
-	public JButton Details() {
+	public JButton getDetails() {
 		JButton Details = new JButton("Details");
 		Details.addActionListener(this);
 		return Details;
@@ -53,18 +55,22 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 		return time;
 	}
 
-	public JButton getDetails() {
-		return Details();
-	}
-
-	@Override
 	public Long getId() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	
+	public static List<SoldItem> getSoldGoods() {
+		return soldGoods;
+	}
+
+	@Override
 	public String toString() {
-        return getTime();
-    }
+		return "HistoryItem [id=" + id + ", date=" + date + ", time=" + time
+				+ ", soldGoods=" + soldGoods.toString() + ", detailid=" + detailid + "]";
+	}
+
+	public String getDetailid() {
+		return detailid;
+	}
 
 }

@@ -12,11 +12,13 @@ import java.util.List;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.table.AbstractTableModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
+
 
 
 import org.apache.log4j.Logger;
@@ -160,7 +162,14 @@ public class ConfirmUI extends JFrame {
 //			model.getHistoryTableModel();
 //			model.getCurrentPurchaseTableModel().clear();
 			System.out.println("I am here");
+			System.out.println(model.getCurrentPurchaseTableModel().getRowCount());
+//			domainController.submitCurrentPurchase();
 			model.purchaseHistoryTableModel.addItem(domainController.gethItem());;
+			model.getCurrentPurchaseTableModel().clear();
+			System.out.println(model.purchaseHistoryTableModel.getValueAt(0, 1));
+			domainController.loadHistory();
+//			fireTableDataChanged();
+//			System.out.println(model.purchaseHistoryTableModel.)
 //		} catch (VerificationFailedException e1) {
 //			log.error(e1.getMessage());
 //		}

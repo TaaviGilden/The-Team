@@ -27,7 +27,14 @@ public class SoldItem implements Cloneable, DisplayableItem {
         return id;
     }
     
-    public void setId(Long id) {
+    @Override
+	public String toString() {
+		return "SoldItem [id=" + id + ", stockItem=" + stockItem + ", name="
+				+ name + ", quantity=" + quantity + ", price=" + price + "]";
+	}
+
+
+	public void setId(Long id) {
         this.id = id;
     }
     
