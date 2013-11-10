@@ -6,6 +6,8 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
@@ -23,7 +25,6 @@ import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
  * labelled "History" in the menu).
  */
 public class HistoryTab {
-
 	private final SalesDomainController domainController;
 	// TODO - implement!
 	private SalesSystemModel model;
@@ -36,7 +37,7 @@ public class HistoryTab {
 	public HistoryTab(SalesDomainController controller) {
 		this.domainController = controller;
 	} 
-
+	
 	public Component draw() {
 		JPanel panel = new JPanel();
 		panel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
@@ -85,8 +86,8 @@ public class HistoryTab {
 					int row = target.getSelectedRow();
 					int column = target.getSelectedColumn();
 					if (column == 2) {
-						System.out.println(domainController.loadHistory().get(0));
-						System.out.println(domainController.loadHistory().get(1));
+						System.out.println(domainController.loadHistory().get(row));
+						//System.out.println(domainController.loadHistory().get(1));
 					}
 				}
 			}

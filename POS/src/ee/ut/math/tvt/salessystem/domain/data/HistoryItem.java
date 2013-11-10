@@ -17,7 +17,7 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 	private Long id;
 	private String date;
 	private String time;
-	private static List<SoldItem> soldGoods;
+	private List<SoldItem> soldGoods;
 	private String detailid;
 
 	public HistoryItem(String date, String time,
@@ -59,7 +59,7 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 		return null;
 	}
 	
-	public static List<SoldItem> getSoldGoods() {
+	public List<SoldItem> getSoldGoods() {
 		return soldGoods;
 	}
 
