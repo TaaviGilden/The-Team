@@ -12,7 +12,7 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 	private static final Logger log = Logger.getLogger(StockTableModel.class);
 
 	public HistoryTableModel() {
-		super(new String[] {"Time", "Date", "Details"});
+		super(new String[] {"Time", "Date", "Sum", "Details"});
 	}
 
 	@Override
@@ -23,6 +23,8 @@ public class HistoryTableModel extends SalesSystemTableModel<HistoryItem> {
 		case 1:
 			return item.getDate();
 		case 2:
+			return item.getSum();
+		case 3:
 			return "Click for details";
 		}
 		throw new IllegalArgumentException("Column index out of range");

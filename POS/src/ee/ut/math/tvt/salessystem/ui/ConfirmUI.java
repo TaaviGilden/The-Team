@@ -156,25 +156,8 @@ public class ConfirmUI extends JFrame {
 
 	protected void acceptButtonClicked() {
 		log.info("Sale saved");
-//		try {
-//			domainController.submitCurrentPurchase(
-//					model.getCurrentPurchaseTableModel().getTableRows());
-//			model.getHistoryTableModel();
-//			model.getCurrentPurchaseTableModel().clear();
-			System.out.println("I am here");
-			System.out.println(model.getCurrentPurchaseTableModel().getRowCount());
-//			domainController.submitCurrentPurchase();
-			model.purchaseHistoryTableModel.addItem(domainController.gethItem());;
-			model.getCurrentPurchaseTableModel().clear();
-			System.out.println(model.purchaseHistoryTableModel.getValueAt(0, 1));
-			domainController.loadHistory();
-//			fireTableDataChanged();
-//			System.out.println(model.purchaseHistoryTableModel.)
-//		} catch (VerificationFailedException e1) {
-//			log.error(e1.getMessage());
-//		}
-//	}
-
-}
+		model.purchaseHistoryTableModel.addItem(domainController.gethItem());;
+		model.getCurrentPurchaseTableModel().clear();
+	}
 }
 

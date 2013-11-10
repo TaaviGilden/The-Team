@@ -5,42 +5,26 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-
-import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
-
-public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  {
+public class HistoryItem implements Cloneable, DisplayableItem {
 
 	private Long id;
 	private String date;
 	private String time;
 	private List<SoldItem> soldGoods;
-	private String detailid;
+	private double sum;
 
 	public HistoryItem(String date, String time,
 			List<SoldItem> soldGoods) {
 		super();
 		this.date = date;
 		this.time = time;
-		this.detailid = "Detailid";
 		this.soldGoods = soldGoods;
+//		for (SoldItem soldItem : soldGoods) {
+//			sum += soldItem.getSum();
+//		}
 	}
 
-	public JButton getDetails() {
-		JButton Details = new JButton("Details");
-		Details.addActionListener(this);
-		return Details;
-		
-	}
-
-	@Override
-	public void actionPerformed(ActionEvent e) {
-//		Houston, we need a window.
-	}
-	
 	public static String getDate() {
 		DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 		Date date = new Date();
@@ -58,7 +42,7 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 	public Long getId() {
 		return null;
 	}
-	
+
 	public List<SoldItem> getSoldGoods() {
 		return soldGoods;
 	}
@@ -66,11 +50,11 @@ public class HistoryItem implements Cloneable, DisplayableItem, ActionListener  
 	@Override
 	public String toString() {
 		return "HistoryItem [id=" + id + ", date=" + date + ", time=" + time
-				+ ", soldGoods=" + soldGoods.toString() + ", detailid=" + detailid + "]";
+				+ ", soldGoods=" + soldGoods + "]";
 	}
 
-	public String getDetailid() {
-		return detailid;
+	public double getSum() {
+		return sum;
 	}
 
 }
