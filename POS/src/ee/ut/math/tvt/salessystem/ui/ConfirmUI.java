@@ -152,7 +152,7 @@ public class ConfirmUI extends JFrame {
 
 	protected void acceptButtonClicked() {
 		log.info("Sale saved");
-		model.getPurchaseHistoryTableModel().addItem(domainController.gethItem());	
+		model.getPurchaseHistoryTableModel().addItem(domainController.gethItem());
 		model.getCurrentPurchaseTableModel().clear();
 	}
 }
