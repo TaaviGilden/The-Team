@@ -42,7 +42,7 @@ public class PurchaseItemPanel extends JPanel {
 	public static JComboBox<StockItem> nameField;
 	private JTextField priceField;
 	private Map<String, String> products;
-
+	public static StockItem test;
 	private JButton addItemButton;
 
 	// Warehouse model
@@ -99,6 +99,8 @@ public class PurchaseItemPanel extends JPanel {
 		quantityField = new JTextField("1");
 		nameField = new JComboBox();
 		priceField = new JTextField();
+		
+		nameField.addItem(test);
 		for (StockItem item : model.getWarehouseTableModel().getTableRows()) {
 			nameField.addItem(item);
 		}

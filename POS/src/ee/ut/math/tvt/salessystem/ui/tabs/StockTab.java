@@ -164,6 +164,7 @@ public class StockTab {
 				System.out.println(descr);
 				model.getWarehouseTableModel().addItem(descr);
 				PurchaseItemPanel.nameField.removeAllItems();
+				PurchaseItemPanel.nameField.addItem(PurchaseItemPanel.test);
 			    
 			    for (StockItem item : model.getWarehouseTableModel().getTableRows()) {
 			          
