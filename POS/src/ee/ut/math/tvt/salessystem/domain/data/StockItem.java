@@ -1,18 +1,30 @@
 package ee.ut.math.tvt.salessystem.domain.data;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * Stock item. Corresponds to the Data Transfer Object design pattern.
  */
+@Entity
+@Table(name = "StockItem")
 public class StockItem implements Cloneable, DisplayableItem {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+	@Column(name = "name")
     private String name;
-
+	@Column(name = "price")
     private double price;
-
+	@Column(name = "description")
     private String description;
-    
+    @Column(name = "quantity")
     private int quantity;
 
     /**
@@ -101,7 +113,6 @@ public class StockItem implements Cloneable, DisplayableItem {
             default: throw new RuntimeException("invalid column!");
         }
     }
-    
     
     public Object clone() {
         StockItem item =
