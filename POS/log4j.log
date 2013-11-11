@@ -572,6 +572,7 @@ null	Frankfurters	15.0	1	15.0
 
 [2013-11-11 16:11:05,585] INFO  8471[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
 [2013-11-11 16:11:05,586]DEBUG  8472[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+<<<<<<< HEAD
 [2013-11-11 16:14:55,434]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
 [2013-11-11 16:14:58,559] INFO  3125[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
 [2013-11-11 16:15:00,579]DEBUG  5145[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
@@ -595,3 +596,9 @@ null	Chupa-chups	8.0	1	8.0
 [2013-11-11 16:34:09,356] INFO 22917[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.cancelPurchaseButtonClicked(PurchaseTab.java:160) - Sale cancelled
 [2013-11-11 16:34:13,851]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
 [2013-11-11 16:34:19,855] INFO  6004[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+=======
+[2013-11-11 16:19:55,959]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 16:19:57,979] INFO  2020[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 16:20:02,776] INFO  6817[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.cancelPurchaseButtonClicked(PurchaseTab.java:160) - Sale cancelled
+[2013-11-11 16:23:47,526]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+>>>>>>> 4e314e63fa80f6f36576adb0a41e9e6e048b5ba9
