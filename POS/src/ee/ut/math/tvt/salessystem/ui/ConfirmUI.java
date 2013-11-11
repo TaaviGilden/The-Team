@@ -8,11 +8,9 @@ import java.awt.GridLayout;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.List;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.swing.table.AbstractTableModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -24,8 +22,6 @@ import javax.swing.JTextField;
 import org.apache.log4j.Logger;
 
 import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
-import ee.ut.math.tvt.salessystem.domain.controller.impl.SalesDomainControllerImpl;
-import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
 import ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel;
 import ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab;
 import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
@@ -156,7 +152,7 @@ public class ConfirmUI extends JFrame {
 
 	protected void acceptButtonClicked() {
 		log.info("Sale saved");
-		model.purchaseHistoryTableModel.addItem(domainController.gethItem());;
+		model.getPurchaseHistoryTableModel().addItem(domainController.gethItem());	
 		model.getCurrentPurchaseTableModel().clear();
 	}
 }

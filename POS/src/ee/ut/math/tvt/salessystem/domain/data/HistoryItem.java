@@ -12,27 +12,35 @@ public class HistoryItem implements Cloneable, DisplayableItem {
 	private String date;
 	private String time;
 	private List<SoldItem> soldGoods;
-	private double sum;
+	private double sum = 0;
 
-	public HistoryItem(String date, String time,
-			List<SoldItem> soldGoods) {
+	public HistoryItem(List<SoldItem> soldGoods) {
 		super();
-		this.date = date;
-		this.time = time;
+		this.date = Date();
+		this.time = Time();
 		this.soldGoods = soldGoods;
-//		for (SoldItem soldItem : soldGoods) {
-//			sum += soldItem.getSum();
-//		}
+		for (SoldItem soldItem : soldGoods) {
+			sum += soldItem.getSum();
+		}
+
 	}
 
-	public static String getDate() {
+	public String getDate() {
+		return date;
+	}
+
+	public String getTime() {
+		return time;
+	}
+
+	public String Date() {
 		DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 		Date date = new Date();
 		String currentDate = dateFormat.format(date);	
 		return currentDate;
 	}
 
-	public static String getTime() {
+	public String Time() {
 		Calendar cal = Calendar.getInstance();
 		SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
 		String time = timeFormat.format(cal.getTime());

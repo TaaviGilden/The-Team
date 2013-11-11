@@ -1,737 +1,241 @@
-[2013-11-10 20:05:20,601]DEBUG132274[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 5
-[2013-11-10 20:05:21,276] INFO132949[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:05:21,276]DEBUG132949[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	5	55.0	
-
-[2013-11-10 20:05:23,229] INFO134902[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:05:23,229]DEBUG134902[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:40) - Added one history item
-[2013-11-10 20:09:33,004]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:09:36,021] INFO  3017[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:09:37,918]DEBUG  4914[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:09:38,407] INFO  5403[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:09:38,407]DEBUG  5403[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:09:39,845] INFO  6841[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:09:39,845]DEBUG  6841[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:40) - Added one history item
-[2013-11-10 20:11:00,814]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:12:12,400]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:12:15,634] INFO  3234[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:12:17,388]DEBUG  4988[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:12:17,891] INFO  5491[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:12:17,891]DEBUG  5491[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:12:19,188] INFO  6788[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:12:19,188]DEBUG  6788[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:38) - Added one history item
-[2013-11-10 20:15:54,930]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:15:56,211] INFO  1281[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:15:57,590]DEBUG  2660[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 20:15:58,156] INFO  3226[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:15:58,156]DEBUG  3226[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 20:16:04,000] INFO  9070[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:16:04,000]DEBUG  9070[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:18:43,460]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:18:45,788] INFO  2328[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:18:47,918]DEBUG  4458[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:18:48,499] INFO  5039[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:18:48,499]DEBUG  5039[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:18:50,390] INFO  6930[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:18:50,390]DEBUG  6930[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:19:20,164]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:19:21,352] INFO  1188[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:19:22,996]DEBUG  2832[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:19:23,656] INFO  3492[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:19:23,656]DEBUG  3492[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:19:25,844] INFO  5680[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:19:25,844]DEBUG  5680[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:20:31,729]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:20:33,214] INFO  1485[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:20:34,671]DEBUG  2942[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:20:35,144] INFO  3415[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:20:35,144]DEBUG  3415[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:20:36,956] INFO  5227[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:20:36,956]DEBUG  5227[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:21:34,404]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:23:11,158]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:23:12,345] INFO  1187[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:23:14,833]DEBUG  3675[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:23:15,540] INFO  4382[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:23:15,540]DEBUG  4382[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:23:17,181] INFO  6023[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:23:17,182]DEBUG  6024[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:25:38,146]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:25:41,693] INFO  3547[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:25:43,587]DEBUG  5441[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:25:44,060] INFO  5914[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:25:44,060]DEBUG  5914[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:25:45,498] INFO  7352[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:25:45,498]DEBUG  7352[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:29:43,624]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:29:45,843] INFO  2219[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:29:47,347]DEBUG  3723[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 20:29:47,866] INFO  4242[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:29:47,866]DEBUG  4242[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 20:29:49,569] INFO  5945[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:29:49,569]DEBUG  5945[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:38:12,109]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:38:13,339] INFO  1230[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:38:15,749]DEBUG  3640[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 20:38:16,253] INFO  4144[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:38:16,254]DEBUG  4145[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 20:38:18,146] INFO  6037[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:38:18,146]DEBUG  6037[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:38:18,705] INFO  6596[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:38:21,070]DEBUG  8961[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 20:38:21,976] INFO  9867[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:38:21,976]DEBUG  9867[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 20:38:23,373] INFO 11264[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:38:23,374]DEBUG 11265[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:38:24,384] INFO 12275[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:38:26,250]DEBUG 14141[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 20:38:27,087] INFO 14978[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:38:27,089]DEBUG 14980[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 20:38:28,457] INFO 16348[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:38:28,458]DEBUG 16349[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:39:09,702]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:39:11,046] INFO  1344[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:39:14,784]DEBUG  5082[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:39:15,273] INFO  5571[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:39:15,273]DEBUG  5571[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:39:16,992] INFO  7290[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:39:16,992]DEBUG  7290[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:39:17,823] INFO  8121[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:39:20,026]DEBUG 10324[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 20:39:20,561] INFO 10859[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:39:20,561]DEBUG 10859[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 20:39:21,983] INFO 12281[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:39:21,983]DEBUG 12281[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:40:42,102]DEBUG     1[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:40:43,451] INFO  1350[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:40:44,704]DEBUG  2603[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 20:40:45,220] INFO  3119[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:40:45,220]DEBUG  3119[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 20:40:46,777] INFO  4676[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:40:46,777]DEBUG  4676[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:44:20,244]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:44:21,556] INFO  1312[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:44:23,295]DEBUG  3051[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:44:23,798] INFO  3554[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:44:23,798]DEBUG  3554[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:44:24,986] INFO  4742[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:44:24,986]DEBUG  4742[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:44:44,311]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:44:45,530] INFO  1219[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:44:47,783]DEBUG  3472[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:44:48,208] INFO  3897[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:44:48,208]DEBUG  3897[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:44:49,411] INFO  5100[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:44:49,411]DEBUG  5100[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:45:26,487]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:45:27,783] INFO  1296[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:45:29,115]DEBUG  2628[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 20:45:29,868] INFO  3381[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:45:29,868]DEBUG  3381[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 20:45:33,540] INFO  7053[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:45:33,540]DEBUG  7053[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:52:30,173]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:52:31,408] INFO  1235[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:52:32,755]DEBUG  2582[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:52:33,493] INFO  3320[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:52:33,493]DEBUG  3320[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:52:46,978] INFO 16805[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:52:46,978]DEBUG 16805[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:53:14,893]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:53:18,128] INFO  3235[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:53:21,100]DEBUG  6207[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:53:22,150] INFO  7257[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:53:22,164]DEBUG  7271[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:53:29,665] INFO 14772[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:53:29,665]DEBUG 14772[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 20:55:02,094]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 20:55:04,000] INFO  1906[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 20:55:06,629]DEBUG  4535[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 20:55:07,117] INFO  5023[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 20:55:07,117]DEBUG  5023[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 20:55:08,555] INFO  6461[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 20:55:08,555]DEBUG  6461[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:05:47,840]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:05:49,514] INFO  1674[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:05:51,404]DEBUG  3564[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:05:51,921] INFO  4081[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:05:51,922]DEBUG  4082[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:05:53,425] INFO  5585[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:05:53,426]DEBUG  5586[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:06:02,612] INFO 14772[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:06:03,202] INFO 15362[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:06:03,202]DEBUG 15362[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-
-[2013-11-10 21:06:09,355] INFO 21515[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:06:12,917]DEBUG 25077[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 21:06:14,348] INFO 26508[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:06:14,349]DEBUG 26509[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 21:06:16,225] INFO 28385[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:06:16,226]DEBUG 28386[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:37:29,031]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:37:31,002] INFO  1971[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:37:32,170]DEBUG  3139[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:37:32,712] INFO  3681[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:37:32,712]DEBUG  3681[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:37:34,566] INFO  5535[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:37:34,567]DEBUG  5536[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:37:35,759] INFO  6728[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:37:42,858]DEBUG 13827[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 2
-[2013-11-10 21:37:43,739] INFO 14708[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:37:43,740]DEBUG 14709[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	2	30.0	
-
-[2013-11-10 21:37:46,426] INFO 17395[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:37:46,427]DEBUG 17396[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:38:19,170]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:38:20,399] INFO  1229[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:38:23,104]DEBUG  3934[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:38:24,343] INFO  5173[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:38:24,344]DEBUG  5174[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:38:25,889] INFO  6719[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:38:26,082]DEBUG  6912[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:38:39,523] INFO 20353[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:38:41,150]DEBUG 21980[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 21:38:42,075] INFO 22905[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:38:42,075]DEBUG 22905[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 21:38:45,513] INFO 26343[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:38:45,513]DEBUG 26343[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:41:01,453]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:41:05,657] INFO  4204[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:41:10,285]DEBUG  8832[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 21:41:11,008] INFO  9555[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:41:11,008]DEBUG  9555[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 21:41:13,180] INFO 11727[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:41:13,180]DEBUG 11727[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:41:14,434] INFO 12981[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:41:16,703]DEBUG 15250[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:41:17,269] INFO 15816[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:41:17,269]DEBUG 15816[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:41:19,363] INFO 17910[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:41:19,363]DEBUG 17910[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:41:32,585] INFO 31132[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:41:35,917]DEBUG 34464[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 21:41:37,030] INFO 35577[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:41:37,030]DEBUG 35577[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 21:41:39,512] INFO 38059[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:41:39,512]DEBUG 38059[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:45:39,031]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:45:41,422] INFO  2391[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:45:43,270]DEBUG  4239[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:45:45,008] INFO  5977[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:45:45,008]DEBUG  5977[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:45:47,991] INFO  8960[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:45:47,991]DEBUG  8960[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:45:55,982] INFO 16951[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:45:58,142]DEBUG 19111[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 21:45:59,020] INFO 19989[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:45:59,020]DEBUG 19989[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 21:46:01,114] INFO 22083[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:46:01,114]DEBUG 22083[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:47:25,209]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:47:26,600] INFO  1391[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:47:28,010]DEBUG  2801[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:47:28,748] INFO  3539[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:47:28,748]DEBUG  3539[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:47:30,107] INFO  4898[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:47:30,107]DEBUG  4898[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:47:34,676] INFO  9467[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:47:37,429]DEBUG 12220[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 21:47:38,057] INFO 12848[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:47:38,057]DEBUG 12848[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 21:47:39,635] INFO 14426[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:47:39,635]DEBUG 14426[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:48:30,961]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:48:32,665] INFO  1704[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:48:34,465]DEBUG  3504[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:48:35,063] INFO  4102[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:48:35,063]DEBUG  4102[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:48:36,719] INFO  5758[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:48:36,719]DEBUG  5758[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:48:45,053] INFO 14092[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:48:47,431]DEBUG 16470[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 21:48:47,950] INFO 16989[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:48:47,950]DEBUG 16989[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 21:48:49,231] INFO 18270[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:48:49,231]DEBUG 18270[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:51:19,939]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 21:51:21,251] INFO  1312[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:51:23,005]DEBUG  3066[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 21:51:23,791] INFO  3852[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:51:23,791]DEBUG  3852[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 21:51:25,353] INFO  5414[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:51:25,353]DEBUG  5414[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 21:51:26,122] INFO  6183[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 21:51:27,513]DEBUG  7574[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 21:51:28,000] INFO  8061[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 21:51:28,000]DEBUG  8061[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 21:51:29,641] INFO  9702[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 21:51:29,641]DEBUG  9702[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:08:26,159]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:08:32,878] INFO  6719[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:08:36,055]DEBUG  9896[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:08:37,092] INFO 10933[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:08:37,092]DEBUG 10933[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:08:41,108] INFO 14949[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:08:41,108]DEBUG 14949[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:09:05,198] INFO 39039[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:09:07,983]DEBUG 41824[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:09:08,893] INFO 42734[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:09:08,908]DEBUG 42749[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 22:09:13,049] INFO 46890[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:09:13,049]DEBUG 46890[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:10:08,119]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:10:09,978] INFO  1859[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:10:11,764]DEBUG  3645[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:10:12,738] INFO  4619[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:10:12,738]DEBUG  4619[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 22:10:15,301] INFO  7182[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:10:15,301]DEBUG  7182[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:13:25,520]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:13:27,296] INFO  1776[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:13:33,234]DEBUG  7714[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:13:34,629] INFO  9109[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:13:34,629]DEBUG  9109[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:13:38,387] INFO 12867[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:13:38,387]DEBUG 12867[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:17:33,336]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:17:34,946] INFO  1610[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:17:37,700]DEBUG  4364[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:17:38,814] INFO  5478[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:17:38,814]DEBUG  5478[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 22:17:41,759] INFO  8423[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:17:41,759]DEBUG  8423[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:17:49,188] INFO 15852[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:17:51,473]DEBUG 18137[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:17:52,055] INFO 18719[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:17:52,055]DEBUG 18719[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 22:17:54,886] INFO 21550[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:17:54,886]DEBUG 21550[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:23:03,606]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:23:05,278] INFO  1672[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:23:07,829]DEBUG  4223[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:23:11,256]DEBUG  7650[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:23:15,218] INFO 11612[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:23:15,227]DEBUG 11621[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 22:23:18,790] INFO 15184[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:23:18,790]DEBUG 15184[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:23:50,158] INFO 46552[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:23:54,084]DEBUG 50478[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 22:23:57,665]DEBUG 54059[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:23:58,996] INFO 55390[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:23:58,996]DEBUG 55390[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:24:03,876] INFO 60270[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:24:03,876]DEBUG 60270[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:27:01,870]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:27:03,933] INFO  2063[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:27:05,656]DEBUG  3786[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:27:07,723] INFO  5853[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:27:07,723]DEBUG  5853[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:27:17,560] INFO 15690[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:27:17,560]DEBUG 15690[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:27:26,955] INFO 25085[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:27:36,506]DEBUG 34636[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 22:27:37,526] INFO 35656[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:27:37,526]DEBUG 35656[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 22:27:40,797] INFO 38927[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:27:40,797]DEBUG 38927[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:27:54,426] INFO 52556[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:27:57,102]DEBUG 55232[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:27:57,965] INFO 56095[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:27:57,981]DEBUG 56111[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 22:28:03,231] INFO 61361[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:28:03,231]DEBUG 61361[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:36:35,858]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:36:38,530] INFO  2672[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:36:40,394]DEBUG  4536[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:36:42,180] INFO  6322[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:36:42,180]DEBUG  6322[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:36:45,626] INFO  9768[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:36:45,626]DEBUG  9768[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:36:48,771] INFO 12913[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:36:52,509]DEBUG 16651[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:36:54,591]DEBUG 18733[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 22:36:55,469] INFO 19611[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:36:55,469]DEBUG 19611[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 11:05:42,344] INFO 27157[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 11:05:42,346]DEBUG 27159[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 null	Lays chips	11.0	1	11.0	
 
-[2013-11-10 22:36:59,720] INFO 23862[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:36:59,720]DEBUG 23862[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:40:32,642]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:40:34,392] INFO  1750[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:40:36,444]DEBUG  3802[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:40:37,918] INFO  5276[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:40:37,918]DEBUG  5276[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 11:05:51,112] INFO 35925[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 11:05:51,113]DEBUG 35926[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:01:10,904]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:01:12,886] INFO  1982[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:01:15,134]DEBUG  4230[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:01:16,251] INFO  5347[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:01:16,253]DEBUG  5349[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 22:40:42,462] INFO  9820[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:40:42,462]DEBUG  9820[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:40:48,497] INFO 15855[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:40:50,782]DEBUG 18140[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:40:52,176] INFO 19534[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:40:52,176]DEBUG 19534[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:40:55,291] INFO 22649[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:40:55,291]DEBUG 22649[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:41:59,368]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:44:18,522]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:44:24,538] INFO  6016[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:44:26,901]DEBUG  8379[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:44:29,594] INFO 11072[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:44:29,594]DEBUG 11072[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:44:34,133] INFO 15611[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:44:34,133]DEBUG 15611[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:44:35,230] INFO 16708[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:44:37,798]DEBUG 19276[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:44:38,989] INFO 20467[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:44:38,989]DEBUG 20467[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:01:20,152] INFO  9248[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:01:20,153]DEBUG  9249[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:02:04,251]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:02:06,449] INFO  2198[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:02:07,955]DEBUG  3704[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:02:09,103] INFO  4852[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:02:09,104]DEBUG  4853[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 22:44:42,602] INFO 24080[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:44:42,602]DEBUG 24080[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:46:32,743] INFO134221[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:46:36,826]DEBUG138304[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 22:46:39,517]DEBUG140995[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Frankfurters quantity of 1
-[2013-11-10 22:46:41,068] INFO142546[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:46:41,068]DEBUG142546[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-10 22:46:44,775] INFO146253[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:46:44,775]DEBUG146253[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:56:46,884]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:56:58,572]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 22:56:59,857] INFO  1285[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:57:01,191]DEBUG  2619[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 22:57:01,759] INFO  3187[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:57:01,759]DEBUG  3187[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:02:11,448] INFO  7197[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:02:11,449]DEBUG  7198[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:06:14,541]DEBUG     1[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:06:16,835] INFO  2295[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:06:18,630]DEBUG  4090[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:06:19,915] INFO  5375[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:06:19,917]DEBUG  5377[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 22:57:03,090] INFO  4518[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:57:03,090]DEBUG  4518[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 22:57:07,924] INFO  9352[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 22:57:10,334]DEBUG 11762[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Lays chips quantity of 1
-[2013-11-10 22:57:11,258] INFO 12686[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 22:57:11,259]DEBUG 12687[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	1	11.0	
-
-[2013-11-10 22:57:12,638] INFO 14066[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 22:57:12,639]DEBUG 14067[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:00:53,687]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:00:54,862] INFO  1175[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:00:56,444]DEBUG  2757[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 23:00:57,374] INFO  3687[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:00:57,375]DEBUG  3688[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:06:23,097] INFO  8557[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:06:23,098]DEBUG  8558[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:06:42,842]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:06:45,002] INFO  2160[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:06:47,780]DEBUG  4938[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:06:49,449] INFO  6607[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:06:49,450]DEBUG  6608[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 23:00:58,635] INFO  4948[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:00:58,635]DEBUG  4948[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:01:03,140] INFO  9453[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:01:05,353]DEBUG 11666[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 23:01:05,884] INFO 12197[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:01:05,885]DEBUG 12198[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 23:01:08,287] INFO 14600[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:01:08,288]DEBUG 14601[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:02:20,006]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:02:21,360] INFO  1354[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:02:26,091]DEBUG  6085[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Chupa-chups quantity of 1
-[2013-11-10 23:02:28,719]DEBUG  8713[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:92) - Added Free Beer quantity of 1
-[2013-11-10 23:02:29,495] INFO  9489[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:02:29,496]DEBUG  9490[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-null	Free Beer	0.0	1	0.0	
-
-[2013-11-10 23:02:31,020] INFO 11014[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:02:31,020]DEBUG 11014[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:42:56,194]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:42:57,889] INFO  1695[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:43:02,858] INFO  6664[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.cancelPurchaseButtonClicked(PurchaseTab.java:160) - Sale cancelled
-[2013-11-10 23:43:24,606]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:43:26,237] INFO  1631[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:43:27,699]DEBUG  3093[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-10 23:43:28,527] INFO  3921[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:43:28,528]DEBUG  3922[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:06:53,290] INFO 10448[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:06:53,291]DEBUG 10449[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:07:37,530]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:07:39,345] INFO  1815[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:07:41,653]DEBUG  4123[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:07:43,680] INFO  6150[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:07:43,681]DEBUG  6151[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 23:43:29,990] INFO  5384[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:43:29,990]DEBUG  5384[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:49:04,291]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:49:06,072] INFO  1781[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:49:07,657]DEBUG  3366[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-10 23:49:08,630] INFO  4339[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:49:08,631]DEBUG  4340[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:07:46,815] INFO  9285[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:07:46,818]DEBUG  9288[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:08:54,267]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:08:56,399] INFO  2132[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:08:58,800]DEBUG  4533[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:08:59,962] INFO  5695[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:08:59,987]DEBUG  5720[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-10 23:49:09,861] INFO  5570[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:49:09,862]DEBUG  5571[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-10 23:58:43,454]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-10 23:58:45,329] INFO  1875[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-10 23:58:47,347]DEBUG  3893[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-10 23:58:48,576] INFO  5122[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-10 23:58:48,577]DEBUG  5123[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:09:02,284] INFO  8017[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:09:02,286]DEBUG  8019[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:09:49,400]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:09:51,533] INFO  2133[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:09:56,534]DEBUG  7134[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 3
+[2013-11-11 12:09:57,770] INFO  8370[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:09:57,771]DEBUG  8371[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-10 23:58:49,997] INFO  6543[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-10 23:58:49,998]DEBUG  6544[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:25:22,549]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 00:25:24,437] INFO  1888[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:25:26,046]DEBUG  3497[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
-[2013-11-11 00:25:26,871] INFO  4322[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:25:26,872]DEBUG  4323[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	1	15.0	
-
-[2013-11-11 00:25:28,218] INFO  5669[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:25:28,218]DEBUG  5669[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:33:14,335]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 00:33:18,560] INFO  4225[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:33:20,589]DEBUG  6254[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-11 00:33:21,494] INFO  7159[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:33:21,495]DEBUG  7160[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Chupa-chups	8.0	1	8.0	
-
-[2013-11-11 00:33:23,344] INFO  9009[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:33:23,344]DEBUG  9009[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:40:46,648]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 00:40:51,043] INFO  4395[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:40:53,895]DEBUG  7247[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
-[2013-11-11 00:40:54,275]DEBUG  7627[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
-[2013-11-11 00:40:55,806] INFO  9158[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:40:55,807]DEBUG  9159[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Frankfurters	15.0	2	30.0	
-
-[2013-11-11 00:40:58,187] INFO 11539[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:40:58,188]DEBUG 11540[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:42:21,187] INFO 94539[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:42:24,852]DEBUG 98204[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 2
-[2013-11-11 00:42:28,501]DEBUG101853[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
-[2013-11-11 00:42:32,003]DEBUG105355[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Free Beer quantity of 7
-[2013-11-11 00:42:38,953]DEBUG112305[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 3
-[2013-11-11 00:42:39,983] INFO113335[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:42:39,984]DEBUG113336[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Lays chips	11.0	2	22.0	
-null	Frankfurters	15.0	1	15.0	
-null	Free Beer	0.0	7	0.0	
 null	Chupa-chups	8.0	3	24.0	
 
-[2013-11-11 00:42:42,959] INFO116311[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:42:42,962]DEBUG116314[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:55:57,252]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 00:55:58,657] INFO  1405[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:56:00,396]DEBUG  3144[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-11 00:56:01,052] INFO  3800[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:56:01,052]DEBUG  3800[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:10:00,740] INFO 11340[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:10:00,741]DEBUG 11341[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:12:07,189]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:12:09,896] INFO  2707[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:12:12,976]DEBUG  5787[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 12:12:15,008] INFO  7819[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:12:15,009]DEBUG  7820[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
+
+[2013-11-11 12:12:18,524] INFO 11335[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:12:18,526]DEBUG 11337[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:14:30,061]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:15:12,806] INFO 42745[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:15:15,492]DEBUG 45431[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:15:17,190] INFO 47129[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:15:17,192]DEBUG 47131[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-11 00:56:03,277] INFO  6025[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:56:03,278]DEBUG  6026[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 00:59:07,524] INFO190272[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 00:59:11,290]DEBUG194038[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 4
-[2013-11-11 00:59:15,930]DEBUG198678[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 10
-[2013-11-11 00:59:20,098]DEBUG202846[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Free Beer quantity of 5
-[2013-11-11 00:59:21,049] INFO203797[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 00:59:21,049]DEBUG203797[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:15:22,208] INFO 52147[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:15:22,209]DEBUG 52148[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:15:48,669]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:15:51,472] INFO  2803[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:15:53,648]DEBUG  4979[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:15:54,533] INFO  5864[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:15:54,535]DEBUG  5866[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	1	8.0	
+
+[2013-11-11 12:15:57,436] INFO  8767[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:15:57,437]DEBUG  8768[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:17:00,390]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:17:02,365] INFO  1975[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:17:04,491]DEBUG  4101[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 12:17:05,630] INFO  5240[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:17:05,671]DEBUG  5281[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
+
+[2013-11-11 12:17:08,241] INFO  7851[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:17:08,242]DEBUG  7852[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:17:38,224] INFO 37834[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:17:40,380]DEBUG 39990[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 1
+[2013-11-11 12:17:41,228] INFO 40838[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:17:41,229]DEBUG 40839[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Lays chips	11.0	1	11.0	
+
+[2013-11-11 12:17:44,586] INFO 44196[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:17:44,588]DEBUG 44198[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:36:16,913]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:36:22,853] INFO  5940[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:36:25,456]DEBUG  8543[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:36:26,621] INFO  9708[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:36:26,622]DEBUG  9709[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	1	8.0	
+
+[2013-11-11 12:36:29,837] INFO 12924[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:36:29,837]DEBUG 12924[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:40:58,302]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:41:01,286] INFO  2984[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:41:03,877]DEBUG  5575[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:41:05,225] INFO  6923[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:41:05,226]DEBUG  6924[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	1	8.0	
+
+[2013-11-11 12:41:07,717] INFO  9415[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:41:07,719]DEBUG  9417[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:41:38,019]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:41:40,193] INFO  2174[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:41:42,267]DEBUG  4248[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:41:42,516]DEBUG  4497[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:41:43,568] INFO  5549[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:41:43,569]DEBUG  5550[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	2	16.0	
+
+[2013-11-11 12:41:46,361] INFO  8342[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:41:46,362]DEBUG  8343[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:41:59,418] INFO 21399[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:42:05,412]DEBUG 27393[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 12:42:27,047]DEBUG 49028[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 4
+[2013-11-11 12:42:28,764] INFO 50745[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:42:28,764]DEBUG 50745[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
 null	Lays chips	11.0	4	44.0	
-null	Frankfurters	15.0	10	150.0	
-null	Free Beer	0.0	5	0.0	
 
-[2013-11-11 00:59:23,761] INFO206509[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 00:59:23,762]DEBUG206510[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:39) - Added one history item
-[2013-11-11 01:16:42,043]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 01:16:43,305] INFO  1262[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 01:16:44,816]DEBUG  2773[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-11 01:16:45,292] INFO  3249[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 01:16:45,292]DEBUG  3249[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:42:33,041] INFO 55022[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:42:33,042]DEBUG 55023[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:56:34,972]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 12:56:37,520] INFO  2548[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 12:56:42,838]DEBUG  7866[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 12:56:44,357] INFO  9385[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 12:56:44,358]DEBUG  9386[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-11 01:16:46,640] INFO  4597[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 01:16:46,641]DEBUG  4598[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
-[2013-11-11 01:22:13,880]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
-[2013-11-11 01:22:15,822] INFO  1942[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
-[2013-11-11 01:22:17,326]DEBUG  3446[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
-[2013-11-11 01:22:18,338] INFO  4458[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
-[2013-11-11 01:22:18,339]DEBUG  4459[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+[2013-11-11 12:56:47,763] INFO 12791[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 12:56:47,764]DEBUG 12792[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 12:58:46,961]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:00:29,737] INFO102776[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 13:00:32,707]DEBUG105746[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 13:00:39,189] INFO112228[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 13:00:39,190]DEBUG112229[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
+
+[2013-11-11 13:00:44,537] INFO117576[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
+[2013-11-11 13:00:44,537]DEBUG117576[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 13:31:11,524]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:31:13,983] INFO  2459[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 13:31:16,149]DEBUG  4625[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 13:31:17,583] INFO  6059[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 13:31:17,584]DEBUG  6060[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
 Id	Name	Price	Quantity	Sum	
 null	Chupa-chups	8.0	1	8.0	
 
-[2013-11-11 01:22:19,506] INFO  5626[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:158) - Sale saved
-[2013-11-11 01:22:19,507]DEBUG  5627[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
-[2013-11-11 01:23:39,744]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:31:21,004] INFO  9480[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 13:31:21,005]DEBUG  9481[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 13:32:16,042]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:32:21,448] INFO  5406[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 13:32:24,284]DEBUG  8242[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 13:32:25,823] INFO  9781[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 13:32:25,825]DEBUG  9783[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
+
+[2013-11-11 13:33:35,348]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:33:37,488] INFO  2140[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 13:33:39,694]DEBUG  4346[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 13:33:40,658] INFO  5310[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 13:33:40,659]DEBUG  5311[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	1	8.0	
+
+[2013-11-11 13:33:43,780] INFO  8432[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 13:33:43,781]DEBUG  8433[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 13:37:42,429]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 13:37:44,766] INFO  2337[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 13:37:46,599]DEBUG  4170[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 13:37:47,972] INFO  5543[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 13:37:47,973]DEBUG  5544[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	1	8.0	
+
+[2013-11-11 13:37:51,041] INFO  8612[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 13:37:51,041]DEBUG  8612[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 14:39:12,014]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 14:39:14,654] INFO  2640[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 14:39:17,535]DEBUG  5521[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 2
+[2013-11-11 14:39:20,882]DEBUG  8868[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 1
+[2013-11-11 14:39:23,474]DEBUG 11460[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 5
+[2013-11-11 14:39:24,563] INFO 12549[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 14:39:24,564]DEBUG 12550[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	2	30.0	
+null	Chupa-chups	8.0	1	8.0	
+null	Lays chips	11.0	5	55.0	
+
+[2013-11-11 14:39:28,929] INFO 16915[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 14:39:28,931]DEBUG 16917[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item

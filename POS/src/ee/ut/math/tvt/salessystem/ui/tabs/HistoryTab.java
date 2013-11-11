@@ -86,11 +86,8 @@ public class HistoryTab {
 					JTable target = (JTable)e.getSource();
 					int row = target.getSelectedRow();
 					int column = target.getSelectedColumn();
-					if (column == 2) {
-
-						System.out.println(domainController.loadHistory().get(row).getSoldGoods());
-						List<SoldItem> historyList = domainController.loadHistory().get(row).getSoldGoods();
-						historyEntry(historyList);
+					if (column == 3) {
+						historyEntry(domainController.loadHistory().get(row).getSoldGoods());
 					}
 				}
 			}
@@ -124,8 +121,9 @@ public class HistoryTab {
 
 		gc.weighty = 1.0;
 		gc.fill = GridBagConstraints.BOTH;
-		historyEntry.add(panel);
+		
 		panel.add(historyEntryContent(historyList), gc);
+		historyEntry.add(panel);
 		historyEntry.pack();
 		historyEntry.setVisible(true);
 	}
@@ -146,9 +144,7 @@ public class HistoryTab {
 
 		panel.setLayout(gb);
 		panel.add(scrollPane, gc);
-
-//		panel.setBorder(BorderFactory.createTitledBorder("History status"));
-
+		
 		return panel;
 	}
 

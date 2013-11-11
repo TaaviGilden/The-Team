@@ -18,7 +18,7 @@ public class SalesSystemModel {
     // Warehouse model
     private StockTableModel warehouseTableModel;
     // History model
-    public HistoryTableModel purchaseHistoryTableModel;
+    private HistoryTableModel purchaseHistoryTableModel;
     // Current shopping cart model
     private PurchaseInfoTableModel currentPurchaseTableModel;
     // HistoryItem model
@@ -58,6 +58,10 @@ public class SalesSystemModel {
     	historyItemModel.populateWithData(historyItems);
     	return historyItemModel;
     }
+
+	public HistoryTableModel getPurchaseHistoryTableModel() {
+		return purchaseHistoryTableModel;
+	}
     
     
     

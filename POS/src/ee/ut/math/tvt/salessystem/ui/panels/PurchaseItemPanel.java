@@ -9,17 +9,13 @@ import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
 import javax.swing.BorderFactory;
-import javax.swing.ComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
@@ -106,9 +102,9 @@ public class PurchaseItemPanel extends JPanel {
 		for (StockItem item : model.getWarehouseTableModel().getTableRows()) {
 			nameField.addItem(item);
 		}
-		
+
 		nameField.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent event) {
 				if(event.getStateChange()==ItemEvent.SELECTED){
@@ -121,17 +117,6 @@ public class PurchaseItemPanel extends JPanel {
 			}
 		});
 
-
-		// Fill the dialog fields if the bar code text field loses focus
-		//        barCodeField.addFocusListener(new FocusListener() {
-		//            public void focusGained(FocusEvent e) {
-		//            }
-		//
-		//            public void focusLost(FocusEvent e) {
-		//                fillDialogFields();
-		//            }
-		//        });
-
 		nameField.setEditable(true);
 		priceField.setEditable(false);
 
@@ -140,7 +125,7 @@ public class PurchaseItemPanel extends JPanel {
 		// - name
 		panel.add(new JLabel("Name:"));
 		panel.add(nameField);
-		
+
 		// - bar code
 		panel.add(new JLabel("Bar code:"));
 		panel.add(barCodeField);
@@ -181,8 +166,6 @@ public class PurchaseItemPanel extends JPanel {
 
 	// Search the warehouse for a StockItem with the bar code entered
 	// to the barCode textfield.
-
-
 
 	private StockItem getStockItemByBarcode() {
 		try {
@@ -303,4 +286,3 @@ public class PurchaseItemPanel extends JPanel {
 	}
 
 }
-

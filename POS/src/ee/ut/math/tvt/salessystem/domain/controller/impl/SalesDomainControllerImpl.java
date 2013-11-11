@@ -1,10 +1,6 @@
 package ee.ut.math.tvt.salessystem.domain.controller.impl;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 import ee.ut.math.tvt.salessystem.domain.exception.VerificationFailedException;
@@ -27,15 +23,7 @@ public class SalesDomainControllerImpl implements SalesDomainController {
 		// cannot buy chupa-chups
 		//throw new VerificationFailedException("Underaged!");
 		// XXX - Save purchase
-//		StockItem sitem1 = new StockItem(6l, "Hui", "Hui2", 9.0);
-//		SoldItem item1 = new SoldItem(sitem1, 1);
-//		List<SoldItem> stuff = null;
-//		stuff.add(item1);
-		System.out.println(goods.isEmpty());
-		HistoryItem hItem = new HistoryItem(HistoryItem.getTime(), HistoryItem.getDate(), goods);
-		System.out.println(goods);
-		System.out.println(goods.toString());
-		System.out.println(hItem);
+		hItem = new HistoryItem(goods);
 		purchaseHistory.add(hItem);
 		}
 	
