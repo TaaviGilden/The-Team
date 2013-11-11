@@ -19,7 +19,7 @@ public class IntroUI extends JFrame {
 		setTitle("Intro");
 		setLayout(null);
 		setResizable(false);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
 		Dimension actualSize = getContentPane().getSize();
 		setLocation((screen.width - actualSize.width) / 2,
