@@ -251,3 +251,324 @@ null	Frankfurters	15.0	5	75.0
 [2013-11-11 14:50:54,437]DEBUG 16927[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(?:?) - Added one history item
 [2013-11-11 14:51:15,830]DEBUG 38320[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(?:?) - Added Sugar quantity of 87
 [2013-11-11 14:51:15,833]DEBUG 38323[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.StockTab$2.actionPerformed(?:?) - Added new item to the warehouse
+[2013-11-11 15:01:37,292]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 15:01:40,267] INFO  2975[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 15:01:43,314]DEBUG  6022[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Chupa-chups quantity of 4
+[2013-11-11 15:01:47,129]DEBUG  9837[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Lays chips quantity of 3
+[2013-11-11 15:01:47,784] INFO 10492[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 15:01:47,785]DEBUG 10493[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Chupa-chups	8.0	4	32.0	
+null	Lays chips	11.0	3	33.0	
+
+[2013-11-11 15:01:50,988] INFO 13696[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 15:01:50,989]DEBUG 13697[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 15:01:56,940]DEBUG 19648[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.<clinit>(Configuration.java:176) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2013-11-11 15:01:57,001]DEBUG 19709[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration boolean -> org.hibernate.type.BooleanType@3382e508
+[2013-11-11 15:01:57,002]DEBUG 19710[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration boolean -> org.hibernate.type.BooleanType@3382e508
+[2013-11-11 15:01:57,003]DEBUG 19711[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3382e508
+[2013-11-11 15:01:57,006]DEBUG 19714[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@e65aa9c
+[2013-11-11 15:01:57,010]DEBUG 19718[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration true_false -> org.hibernate.type.TrueFalseType@36be4fd5
+[2013-11-11 15:01:57,011]DEBUG 19719[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration yes_no -> org.hibernate.type.YesNoType@50a52ae9
+[2013-11-11 15:01:57,045]DEBUG 19753[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte -> org.hibernate.type.ByteType@c947b27
+[2013-11-11 15:01:57,050]DEBUG 19758[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte -> org.hibernate.type.ByteType@c947b27
+[2013-11-11 15:01:57,051]DEBUG 19759[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@c947b27
+[2013-11-11 15:01:57,055]DEBUG 19763[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration character -> org.hibernate.type.CharacterType@5ca874d9
+[2013-11-11 15:01:57,056]DEBUG 19764[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration char -> org.hibernate.type.CharacterType@5ca874d9
+[2013-11-11 15:01:57,057]DEBUG 19765[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5ca874d9
+[2013-11-11 15:01:57,062]DEBUG 19770[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration short -> org.hibernate.type.ShortType@5cc1a41a
+[2013-11-11 15:01:57,063]DEBUG 19771[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration short -> org.hibernate.type.ShortType@5cc1a41a
+[2013-11-11 15:01:57,064]DEBUG 19772[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5cc1a41a
+[2013-11-11 15:01:57,068]DEBUG 19776[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration integer -> org.hibernate.type.IntegerType@3f478bf
+[2013-11-11 15:01:57,069]DEBUG 19777[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration int -> org.hibernate.type.IntegerType@3f478bf
+[2013-11-11 15:01:57,069]DEBUG 19777[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3f478bf
+[2013-11-11 15:01:57,078]DEBUG 19786[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration long -> org.hibernate.type.LongType@198d25b7
+[2013-11-11 15:01:57,080]DEBUG 19788[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration long -> org.hibernate.type.LongType@198d25b7
+[2013-11-11 15:01:57,081]DEBUG 19789[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Long -> org.hibernate.type.LongType@198d25b7
+[2013-11-11 15:01:57,091]DEBUG 19799[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration float -> org.hibernate.type.FloatType@3d27da4b
+[2013-11-11 15:01:57,093]DEBUG 19801[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration float -> org.hibernate.type.FloatType@3d27da4b
+[2013-11-11 15:01:57,094]DEBUG 19802[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3d27da4b
+[2013-11-11 15:01:57,100]DEBUG 19808[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration double -> org.hibernate.type.DoubleType@33a269e
+[2013-11-11 15:01:57,101]DEBUG 19809[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration double -> org.hibernate.type.DoubleType@33a269e
+[2013-11-11 15:01:57,102]DEBUG 19810[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@33a269e
+[2013-11-11 15:01:57,137]DEBUG 19845[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3620afcb
+[2013-11-11 15:01:57,138]DEBUG 19846[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3620afcb
+[2013-11-11 15:01:57,154]DEBUG 19862[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@319a7cb1
+[2013-11-11 15:01:57,155]DEBUG 19863[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@319a7cb1
+[2013-11-11 15:01:57,159]DEBUG 19867[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration string -> org.hibernate.type.StringType@133a1505
+[2013-11-11 15:01:57,159]DEBUG 19867[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.String -> org.hibernate.type.StringType@133a1505
+[2013-11-11 15:01:57,163]DEBUG 19871[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration url -> org.hibernate.type.UrlType@37438e74
+[2013-11-11 15:01:57,163]DEBUG 19871[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.net.URL -> org.hibernate.type.UrlType@37438e74
+[2013-11-11 15:01:57,172]DEBUG 19880[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration date -> org.hibernate.type.DateType@68b0e78a
+[2013-11-11 15:01:57,173]DEBUG 19881[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Date -> org.hibernate.type.DateType@68b0e78a
+[2013-11-11 15:01:57,180]DEBUG 19888[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration time -> org.hibernate.type.TimeType@2ac97acf
+[2013-11-11 15:01:57,181]DEBUG 19889[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@2ac97acf
+[2013-11-11 15:01:57,188]DEBUG 19896[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration timestamp -> org.hibernate.type.TimestampType@7898b133
+[2013-11-11 15:01:57,190]DEBUG 19898[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7898b133
+[2013-11-11 15:01:57,190]DEBUG 19898[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7898b133
+[2013-11-11 15:01:57,199]DEBUG 19907[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3fd372cf
+[2013-11-11 15:01:57,205]DEBUG 19913[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration calendar -> org.hibernate.type.CalendarType@34fecba2
+[2013-11-11 15:01:57,206]DEBUG 19914[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@34fecba2
+[2013-11-11 15:01:57,207]DEBUG 19915[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@34fecba2
+[2013-11-11 15:01:57,210]DEBUG 19918[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@69316a2e
+[2013-11-11 15:01:57,215]DEBUG 19923[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration locale -> org.hibernate.type.LocaleType@6d0c2a2e
+[2013-11-11 15:01:57,216]DEBUG 19924[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6d0c2a2e
+[2013-11-11 15:01:57,219]DEBUG 19927[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration currency -> org.hibernate.type.CurrencyType@4a5bf2d4
+[2013-11-11 15:01:57,220]DEBUG 19928[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4a5bf2d4
+[2013-11-11 15:01:57,223]DEBUG 19931[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration timezone -> org.hibernate.type.TimeZoneType@31161acd
+[2013-11-11 15:01:57,223]DEBUG 19931[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@31161acd
+[2013-11-11 15:01:57,227]DEBUG 19935[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration class -> org.hibernate.type.ClassType@140cbe7c
+[2013-11-11 15:01:57,228]DEBUG 19936[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@140cbe7c
+[2013-11-11 15:01:57,256]DEBUG 19964[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1adb8a22
+[2013-11-11 15:01:57,257]DEBUG 19965[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1adb8a22
+[2013-11-11 15:01:57,259]DEBUG 19967[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6fc8ddb5
+[2013-11-11 15:01:57,263]DEBUG 19971[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@1b1498ba
+[2013-11-11 15:01:57,267]DEBUG 19975[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration binary -> org.hibernate.type.BinaryType@18f98d7a
+[2013-11-11 15:01:57,268]DEBUG 19976[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte[] -> org.hibernate.type.BinaryType@18f98d7a
+[2013-11-11 15:01:57,269]DEBUG 19977[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [B -> org.hibernate.type.BinaryType@18f98d7a
+[2013-11-11 15:01:57,274]DEBUG 19982[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1fa701a8
+[2013-11-11 15:01:57,275]DEBUG 19983[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1fa701a8
+[2013-11-11 15:01:57,275]DEBUG 19983[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1fa701a8
+[2013-11-11 15:01:57,278]DEBUG 19986[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration image -> org.hibernate.type.ImageType@6677f21c
+[2013-11-11 15:01:57,281]DEBUG 19989[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration characters -> org.hibernate.type.CharArrayType@3000d1b1
+[2013-11-11 15:01:57,282]DEBUG 19990[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration char[] -> org.hibernate.type.CharArrayType@3000d1b1
+[2013-11-11 15:01:57,283]DEBUG 19991[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [C -> org.hibernate.type.CharArrayType@3000d1b1
+[2013-11-11 15:01:57,287]DEBUG 19995[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@337a0b28
+[2013-11-11 15:01:57,288]DEBUG 19996[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@337a0b28
+[2013-11-11 15:01:57,289]DEBUG 19997[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@337a0b28
+[2013-11-11 15:01:57,299]DEBUG 20007[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration text -> org.hibernate.type.TextType@519f6780
+[2013-11-11 15:01:57,353]DEBUG 20061[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration blob -> org.hibernate.type.BlobType@31302ed5
+[2013-11-11 15:01:57,354]DEBUG 20062[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@31302ed5
+[2013-11-11 15:01:57,356]DEBUG 20064[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@10ebbf02
+[2013-11-11 15:01:57,368]DEBUG 20076[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration clob -> org.hibernate.type.ClobType@71400fad
+[2013-11-11 15:01:57,369]DEBUG 20077[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@71400fad
+[2013-11-11 15:01:57,371]DEBUG 20079[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7e2fa610
+[2013-11-11 15:01:57,375]DEBUG 20083[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration serializable -> org.hibernate.type.SerializableType@2b0dbc37
+[2013-11-11 15:01:57,384]DEBUG 20092[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration object -> org.hibernate.type.ObjectType@2a11c960
+[2013-11-11 15:01:57,385]DEBUG 20093[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2a11c960
+[2013-11-11 15:01:57,387]DEBUG 20095[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3751834b
+[2013-11-11 15:01:57,388]DEBUG 20096[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4882cd4c
+[2013-11-11 15:01:57,388]DEBUG 20096[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3745dc5
+[2013-11-11 15:01:57,389]DEBUG 20097[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4cb83248
+[2013-11-11 15:01:57,390]DEBUG 20098[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@50ed3c51
+[2013-11-11 15:01:57,391]DEBUG 20099[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7131359
+[2013-11-11 15:01:57,392]DEBUG 20100[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@755b3baf
+[2013-11-11 15:01:57,393]DEBUG 20101[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@38ab9a5a
+[2013-11-11 15:01:57,469] INFO 20177[AWT-EventQueue-0] - org.hibernate.annotations.common.Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2013-11-11 15:01:57,488] INFO 20196[AWT-EventQueue-0] - org.hibernate.Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+[2013-11-11 15:01:57,497] INFO 20205[AWT-EventQueue-0] - org.hibernate.cfg.Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+[2013-11-11 15:01:57,507] INFO 20215[AWT-EventQueue-0] - org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[2013-11-11 15:01:57,550]DEBUG 20258[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2013-11-11 15:01:57,553]DEBUG 20261[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2013-11-11 15:01:57,556]DEBUG 20264[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2013-11-11 15:01:57,557]DEBUG 20265[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2013-11-11 15:01:57,561]DEBUG 20269[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2013-11-11 15:01:57,563]DEBUG 20271[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2013-11-11 15:01:57,568]DEBUG 20276[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2013-11-11 15:01:57,570]DEBUG 20278[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2013-11-11 15:01:57,572]DEBUG 20280[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2013-11-11 15:01:57,573]DEBUG 20281[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2013-11-11 15:01:57,576]DEBUG 20284[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2013-11-11 15:01:57,578]DEBUG 20286[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2013-11-11 15:01:57,579]DEBUG 20287[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2013-11-11 15:01:57,581]DEBUG 20289[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2013-11-11 15:01:57,583]DEBUG 20291[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2013-11-11 15:01:57,596] INFO 20304[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.configure(Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2013-11-11 15:01:57,598] INFO 20306[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[2013-11-11 15:01:57,600]ERROR 20308[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.util.HibernateUtil.<clinit>(HibernateUtil.java:31) - Initial SessionFactory creation failed.
+org.hibernate.HibernateException: /hibernate.cfg.xml not found
+	at org.hibernate.internal.util.ConfigHelper.getResourceAsStream(ConfigHelper.java:173)
+	at org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:1953)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1934)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1914)
+	at ee.ut.math.tvt.salessystem.util.HibernateUtil.<clinit>(HibernateUtil.java:24)
+	at ee.ut.math.tvt.salessystem.domain.controller.impl.SalesDomainControllerImpl.endSession(SalesDomainControllerImpl.java:66)
+	at ee.ut.math.tvt.salessystem.ui.SalesSystemUI$1.windowClosing(SalesSystemUI.java:73)
+	at java.awt.Window.processWindowEvent(Window.java:2051)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:296)
+	at java.awt.Window.processEvent(Window.java:2009)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:702)
+	at java.awt.EventQueue$4.run(EventQueue.java:700)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013-11-11 15:03:44,176]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 15:03:45,777] INFO  1601[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 15:03:48,742] INFO  4566[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.cancelPurchaseButtonClicked(PurchaseTab.java:160) - Sale cancelled
+[2013-11-11 15:08:27,375]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 15:08:34,490]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 15:08:38,430]DEBUG  3940[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.<clinit>(Configuration.java:176) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2013-11-11 15:08:38,479]DEBUG  3989[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration boolean -> org.hibernate.type.BooleanType@3c1aa41a
+[2013-11-11 15:08:38,480]DEBUG  3990[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration boolean -> org.hibernate.type.BooleanType@3c1aa41a
+[2013-11-11 15:08:38,481]DEBUG  3991[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3c1aa41a
+[2013-11-11 15:08:38,484]DEBUG  3994[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@517f562e
+[2013-11-11 15:08:38,497]DEBUG  4007[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration true_false -> org.hibernate.type.TrueFalseType@143f032d
+[2013-11-11 15:08:38,500]DEBUG  4010[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration yes_no -> org.hibernate.type.YesNoType@6dab1eaf
+[2013-11-11 15:08:38,510]DEBUG  4020[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte -> org.hibernate.type.ByteType@43dbe14f
+[2013-11-11 15:08:38,511]DEBUG  4021[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte -> org.hibernate.type.ByteType@43dbe14f
+[2013-11-11 15:08:38,512]DEBUG  4022[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@43dbe14f
+[2013-11-11 15:08:38,517]DEBUG  4027[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration character -> org.hibernate.type.CharacterType@27a4c3c0
+[2013-11-11 15:08:38,518]DEBUG  4028[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration char -> org.hibernate.type.CharacterType@27a4c3c0
+[2013-11-11 15:08:38,518]DEBUG  4028[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@27a4c3c0
+[2013-11-11 15:08:38,524]DEBUG  4034[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration short -> org.hibernate.type.ShortType@23441f2b
+[2013-11-11 15:08:38,525]DEBUG  4035[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration short -> org.hibernate.type.ShortType@23441f2b
+[2013-11-11 15:08:38,532]DEBUG  4042[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@23441f2b
+[2013-11-11 15:08:38,538]DEBUG  4048[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration integer -> org.hibernate.type.IntegerType@7ee3d36
+[2013-11-11 15:08:38,539]DEBUG  4049[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration int -> org.hibernate.type.IntegerType@7ee3d36
+[2013-11-11 15:08:38,540]DEBUG  4050[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7ee3d36
+[2013-11-11 15:08:38,546]DEBUG  4056[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration long -> org.hibernate.type.LongType@10a2e5c6
+[2013-11-11 15:08:38,547]DEBUG  4057[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration long -> org.hibernate.type.LongType@10a2e5c6
+[2013-11-11 15:08:38,548]DEBUG  4058[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Long -> org.hibernate.type.LongType@10a2e5c6
+[2013-11-11 15:08:38,558]DEBUG  4068[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration float -> org.hibernate.type.FloatType@118902ef
+[2013-11-11 15:08:38,560]DEBUG  4070[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration float -> org.hibernate.type.FloatType@118902ef
+[2013-11-11 15:08:38,562]DEBUG  4072[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@118902ef
+[2013-11-11 15:08:38,570]DEBUG  4080[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration double -> org.hibernate.type.DoubleType@14432417
+[2013-11-11 15:08:38,571]DEBUG  4081[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration double -> org.hibernate.type.DoubleType@14432417
+[2013-11-11 15:08:38,572]DEBUG  4082[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@14432417
+[2013-11-11 15:08:38,581]DEBUG  4091[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@551748e6
+[2013-11-11 15:08:38,582]DEBUG  4092[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@551748e6
+[2013-11-11 15:08:38,588]DEBUG  4098[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@c660ebc
+[2013-11-11 15:08:38,589]DEBUG  4099[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@c660ebc
+[2013-11-11 15:08:38,594]DEBUG  4104[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration string -> org.hibernate.type.StringType@187d9fc9
+[2013-11-11 15:08:38,595]DEBUG  4105[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.String -> org.hibernate.type.StringType@187d9fc9
+[2013-11-11 15:08:38,600]DEBUG  4110[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration url -> org.hibernate.type.UrlType@4ff5e91e
+[2013-11-11 15:08:38,600]DEBUG  4110[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.net.URL -> org.hibernate.type.UrlType@4ff5e91e
+[2013-11-11 15:08:38,622]DEBUG  4132[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration date -> org.hibernate.type.DateType@5c930dae
+[2013-11-11 15:08:38,623]DEBUG  4133[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5c930dae
+[2013-11-11 15:08:38,650]DEBUG  4160[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration time -> org.hibernate.type.TimeType@303be7e8
+[2013-11-11 15:08:38,651]DEBUG  4161[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@303be7e8
+[2013-11-11 15:08:38,659]DEBUG  4169[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration timestamp -> org.hibernate.type.TimestampType@33fe38cc
+[2013-11-11 15:08:38,660]DEBUG  4170[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@33fe38cc
+[2013-11-11 15:08:38,661]DEBUG  4171[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@33fe38cc
+[2013-11-11 15:08:38,664]DEBUG  4174[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5cebe75f
+[2013-11-11 15:08:38,667]DEBUG  4177[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration calendar -> org.hibernate.type.CalendarType@4d39a005
+[2013-11-11 15:08:38,668]DEBUG  4178[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4d39a005
+[2013-11-11 15:08:38,669]DEBUG  4179[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4d39a005
+[2013-11-11 15:08:38,672]DEBUG  4182[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@47e8d427
+[2013-11-11 15:08:38,676]DEBUG  4186[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration locale -> org.hibernate.type.LocaleType@17d351fc
+[2013-11-11 15:08:38,677]DEBUG  4187[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@17d351fc
+[2013-11-11 15:08:38,682]DEBUG  4192[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration currency -> org.hibernate.type.CurrencyType@399b07ba
+[2013-11-11 15:08:38,683]DEBUG  4193[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@399b07ba
+[2013-11-11 15:08:38,688]DEBUG  4198[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration timezone -> org.hibernate.type.TimeZoneType@3bb79cfa
+[2013-11-11 15:08:38,689]DEBUG  4199[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3bb79cfa
+[2013-11-11 15:08:38,692]DEBUG  4202[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration class -> org.hibernate.type.ClassType@447a195c
+[2013-11-11 15:08:38,693]DEBUG  4203[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@447a195c
+[2013-11-11 15:08:38,700]DEBUG  4210[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@67a799d
+[2013-11-11 15:08:38,701]DEBUG  4211[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@67a799d
+[2013-11-11 15:08:38,704]DEBUG  4214[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@752ab82e
+[2013-11-11 15:08:38,710]DEBUG  4220[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6a6287b2
+[2013-11-11 15:08:38,715]DEBUG  4225[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration binary -> org.hibernate.type.BinaryType@3c7b6097
+[2013-11-11 15:08:38,716]DEBUG  4226[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration byte[] -> org.hibernate.type.BinaryType@3c7b6097
+[2013-11-11 15:08:38,717]DEBUG  4227[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [B -> org.hibernate.type.BinaryType@3c7b6097
+[2013-11-11 15:08:38,721]DEBUG  4231[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@274ccd86
+[2013-11-11 15:08:38,722]DEBUG  4232[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@274ccd86
+[2013-11-11 15:08:38,722]DEBUG  4232[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@274ccd86
+[2013-11-11 15:08:38,729]DEBUG  4239[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration image -> org.hibernate.type.ImageType@1de3ac1a
+[2013-11-11 15:08:38,733]DEBUG  4243[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration characters -> org.hibernate.type.CharArrayType@76a9c2c9
+[2013-11-11 15:08:38,734]DEBUG  4244[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration char[] -> org.hibernate.type.CharArrayType@76a9c2c9
+[2013-11-11 15:08:38,735]DEBUG  4245[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [C -> org.hibernate.type.CharArrayType@76a9c2c9
+[2013-11-11 15:08:38,739]DEBUG  4249[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3ed5dee4
+[2013-11-11 15:08:38,740]DEBUG  4250[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3ed5dee4
+[2013-11-11 15:08:38,741]DEBUG  4251[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3ed5dee4
+[2013-11-11 15:08:38,744]DEBUG  4254[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration text -> org.hibernate.type.TextType@3e9af3ee
+[2013-11-11 15:08:38,766]DEBUG  4276[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration blob -> org.hibernate.type.BlobType@48b997d0
+[2013-11-11 15:08:38,768]DEBUG  4278[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@48b997d0
+[2013-11-11 15:08:38,771]DEBUG  4281[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@f539f96
+[2013-11-11 15:08:38,789]DEBUG  4299[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration clob -> org.hibernate.type.ClobType@302d6b3
+[2013-11-11 15:08:38,791]DEBUG  4301[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@302d6b3
+[2013-11-11 15:08:38,793]DEBUG  4303[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@34c8a95c
+[2013-11-11 15:08:38,798]DEBUG  4308[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration serializable -> org.hibernate.type.SerializableType@50249973
+[2013-11-11 15:08:38,808]DEBUG  4318[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration object -> org.hibernate.type.ObjectType@1d7018fd
+[2013-11-11 15:08:38,809]DEBUG  4319[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1d7018fd
+[2013-11-11 15:08:38,812]DEBUG  4322[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@53b367f1
+[2013-11-11 15:08:38,813]DEBUG  4323[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@276d2a25
+[2013-11-11 15:08:38,814]DEBUG  4324[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6fe9f75b
+[2013-11-11 15:08:38,815]DEBUG  4325[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@696eb0c3
+[2013-11-11 15:08:38,816]DEBUG  4326[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@62170848
+[2013-11-11 15:08:38,817]DEBUG  4327[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5620e147
+[2013-11-11 15:08:38,818]DEBUG  4328[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@8a6287e
+[2013-11-11 15:08:38,820]DEBUG  4330[AWT-EventQueue-0] - org.hibernate.type.BasicTypeRegistry.register(BasicTypeRegistry.java:143) - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@54ac6ca1
+[2013-11-11 15:08:38,905] INFO  4415[AWT-EventQueue-0] - org.hibernate.annotations.common.Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2013-11-11 15:08:38,933] INFO  4443[AWT-EventQueue-0] - org.hibernate.Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+[2013-11-11 15:08:38,938] INFO  4448[AWT-EventQueue-0] - org.hibernate.cfg.Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+[2013-11-11 15:08:38,943] INFO  4453[AWT-EventQueue-0] - org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[2013-11-11 15:08:38,990]DEBUG  4500[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2013-11-11 15:08:38,993]DEBUG  4503[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2013-11-11 15:08:38,996]DEBUG  4506[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2013-11-11 15:08:38,997]DEBUG  4507[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2013-11-11 15:08:39,001]DEBUG  4511[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2013-11-11 15:08:39,004]DEBUG  4514[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2013-11-11 15:08:39,009]DEBUG  4519[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2013-11-11 15:08:39,011]DEBUG  4521[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2013-11-11 15:08:39,015]DEBUG  4525[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2013-11-11 15:08:39,022]DEBUG  4532[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2013-11-11 15:08:39,028]DEBUG  4538[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2013-11-11 15:08:39,030]DEBUG  4540[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2013-11-11 15:08:39,033]DEBUG  4543[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2013-11-11 15:08:39,042]DEBUG  4552[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2013-11-11 15:08:39,045]DEBUG  4555[AWT-EventQueue-0] - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.register(DefaultIdentifierGeneratorFactory.java:93) - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2013-11-11 15:08:39,052] INFO  4562[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.configure(Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2013-11-11 15:08:39,053] INFO  4563[AWT-EventQueue-0] - org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[2013-11-11 15:08:39,056]ERROR  4566[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.util.HibernateUtil.<clinit>(HibernateUtil.java:31) - Initial SessionFactory creation failed.
+org.hibernate.HibernateException: /hibernate.cfg.xml not found
+	at org.hibernate.internal.util.ConfigHelper.getResourceAsStream(ConfigHelper.java:173)
+	at org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:1953)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1934)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1914)
+	at ee.ut.math.tvt.salessystem.util.HibernateUtil.<clinit>(HibernateUtil.java:24)
+	at ee.ut.math.tvt.salessystem.domain.controller.impl.SalesDomainControllerImpl.endSession(SalesDomainControllerImpl.java:66)
+	at ee.ut.math.tvt.salessystem.ui.SalesSystemUI$1.windowClosing(SalesSystemUI.java:73)
+	at java.awt.Window.processWindowEvent(Window.java:2051)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:296)
+	at java.awt.Window.processEvent(Window.java:2009)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:702)
+	at java.awt.EventQueue$4.run(EventQueue.java:700)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013-11-11 15:11:43,657] INFO     0[HSQLDB Server @19a072a6] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose start
+[2013-11-11 15:11:43,795] INFO   138[HSQLDB Server @19a072a6] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose end
+[2013-11-11 16:10:57,114]DEBUG     0[main] - ee.ut.math.tvt.TheTeam.Intro.main(Intro.java:17) - Creating screen
+[2013-11-11 16:10:58,841] INFO  1727[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(PurchaseTab.java:148) - New sale process started
+[2013-11-11 16:11:01,243]DEBUG  4129[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(PurchaseInfoTableModel.java:88) - Added Frankfurters quantity of 1
+[2013-11-11 16:11:02,430] INFO  5316[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:173) - Sale complete
+[2013-11-11 16:11:02,431]DEBUG  5317[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(PurchaseTab.java:175) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	1	15.0	
+
+[2013-11-11 16:11:05,585] INFO  8471[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
+[2013-11-11 16:11:05,586]DEBUG  8472[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item

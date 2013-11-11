@@ -6,13 +6,28 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Column;
+
+@Entity
+@Table(name = "HistoryItem")
 public class HistoryItem implements Cloneable, DisplayableItem {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@Column(name = "date")
 	private String date;
+	@Column(name = "time")
 	private String time;
-	private List<SoldItem> soldGoods;
+	@Column(name = "totalSum")
 	private double sum = 0;
+	private List<SoldItem> soldGoods;
+
 
 	public HistoryItem(List<SoldItem> soldGoods) {
 		super();
