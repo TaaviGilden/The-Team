@@ -15,38 +15,38 @@ public interface SalesDomainController {
 
 	public HistoryItem gethItem();
 	public List<HistoryItem> loadHistory();
-    /**
-     * Load the current state of the warehouse.
-     * 
-     * @return List of ${link
-     *         ee.ut.math.tvt.salessystem.domain.data.StockItem}s.
-     */
-    public List<StockItem> loadWarehouseState();
+	/**
+	 * Load the current state of the warehouse.
+	 * 
+	 * @return List of ${link
+	 *         ee.ut.math.tvt.salessystem.domain.data.StockItem}s.
+	 */
+	public List<StockItem> loadWarehouseState();
 
-    // business processes
-    /**
-     * Initiate new business transaction - purchase of the goods.
-     * 
-     * @throws VerificationFailedException
-     */
-    public void startNewPurchase() throws VerificationFailedException;
+	// business processes
+	/**
+	 * Initiate new business transaction - purchase of the goods.
+	 * 
+	 * @throws VerificationFailedException
+	 */
+	public void startNewPurchase() throws VerificationFailedException;
 
-    /**
-     * Rollback business transaction - purchase of goods.
-     * 
-     * @throws VerificationFailedException
-     */
-    public void cancelCurrentPurchase() throws VerificationFailedException;
+	/**
+	 * Rollback business transaction - purchase of goods.
+	 * 
+	 * @throws VerificationFailedException
+	 */
+	public void cancelCurrentPurchase() throws VerificationFailedException;
 
-    /**
-     * Commit business transaction - purchsae of goods.
-     * 
-     * @param soldItems
-     *            Goods that the buyer has chosen to buy.
-     * @throws VerificationFailedException
-     */
-    public void submitCurrentPurchase(List<SoldItem> soldItems)
-            throws VerificationFailedException;
+	/**
+	 * Commit business transaction - purchsae of goods.
+	 * 
+	 * @param soldItems
+	 *            Goods that the buyer has chosen to buy.
+	 * @throws VerificationFailedException
+	 */
+	public void submitCurrentPurchase(List<SoldItem> soldItems)
+			throws VerificationFailedException;
 
-    
+	public void endSession();    
 }
