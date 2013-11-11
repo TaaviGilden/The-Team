@@ -128,7 +128,7 @@ public class ConfirmUI extends JFrame {
 		JButton accept = new JButton("Accept");
 		accept.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(total<=paymentAmount&&paymentAmount>0){
+				if(total<=paymentAmount&&paymentAmount>=0){
 					acceptButtonClicked();
 					dispose();
 				}

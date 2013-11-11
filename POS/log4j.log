@@ -68,3 +68,5 @@
 [2013-11-11 22:05:08,855] INFO   110[HSQLDB Server @1bd11b79] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose end
 [2013-11-11 22:07:10,995] INFO     0[HSQLDB Server @3d62b333] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose start
 [2013-11-11 22:07:11,120] INFO   125[HSQLDB Server @3d62b333] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose end
+[2013-11-11 23:19:54,545] INFO     0[HSQLDB Server @1bd11b79] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose start
+[2013-11-11 23:19:54,701] INFO   156[HSQLDB Server @1bd11b79] - org.hsqldb.persist.Logger.logInfoEvent(?:?) - checkpointClose end
