@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
@@ -17,6 +19,8 @@ public class SoldItem implements Cloneable, DisplayableItem {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @ManyToOne(optional=false)
+    @JoinColumn(name="STOCKITEM_ID", nullable=false, updatable=false)
 	private StockItem stockItem;
     @Column(name = "name")
     private String name;
@@ -33,7 +37,7 @@ public class SoldItem implements Cloneable, DisplayableItem {
         
     }
     
-    
+    @ManyToOne
     public Long getId() {
         return id;
     } 

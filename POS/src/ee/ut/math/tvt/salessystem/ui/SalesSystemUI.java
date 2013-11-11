@@ -70,7 +70,7 @@ public class SalesSystemUI extends JFrame {
     addWindowListener(new WindowAdapter() {
       @Override
       public void windowClosing(WindowEvent e) {
-//    	domainController.endSession();
+    	domainController.endSession();
         System.exit(0);
       }
     });
