@@ -239,3 +239,15 @@ null	Lays chips	11.0	5	55.0
 
 [2013-11-11 14:39:28,929] INFO 16915[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(ConfirmUI.java:154) - Sale saved
 [2013-11-11 14:39:28,931]DEBUG 16917[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(HistoryTableModel.java:41) - Added one history item
+[2013-11-11 14:50:37,511]DEBUG     1[main] - ee.ut.math.tvt.TheTeam.Intro.main(?:?) - Creating screen
+[2013-11-11 14:50:42,237] INFO  4727[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.newPurchaseButtonClicked(?:?) - New sale process started
+[2013-11-11 14:50:47,293]DEBUG  9783[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.PurchaseInfoTableModel.addItem(?:?) - Added Frankfurters quantity of 5
+[2013-11-11 14:50:50,839] INFO 13329[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(?:?) - Sale complete
+[2013-11-11 14:50:50,841]DEBUG 13331[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab.submitPurchaseButtonClicked(?:?) - Contents of the current basket:
+Id	Name	Price	Quantity	Sum	
+null	Frankfurters	15.0	5	75.0	
+
+[2013-11-11 14:50:54,436] INFO 16926[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.ConfirmUI.acceptButtonClicked(?:?) - Sale saved
+[2013-11-11 14:50:54,437]DEBUG 16927[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.HistoryTableModel.addItem(?:?) - Added one history item
+[2013-11-11 14:51:15,830]DEBUG 38320[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(?:?) - Added Sugar quantity of 87
+[2013-11-11 14:51:15,833]DEBUG 38323[AWT-EventQueue-0] - ee.ut.math.tvt.salessystem.ui.tabs.StockTab$2.actionPerformed(?:?) - Added new item to the warehouse
