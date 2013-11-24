@@ -82,4 +82,9 @@ public class HistoryItem implements Cloneable, DisplayableItem {
 		return sum;
 	}
 
+	public void setSoldGoods(List<SoldItem> soldItems) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

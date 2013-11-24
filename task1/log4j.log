@@ -1445,3 +1445,20 @@ org.hibernate.HibernateException: /hibernate.cfg.xml not found
 [2013-11-24 13:18:05,177]DEBUG 11428[AWT-EventQueue-0] - org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.releaseConnection(LogicalConnectionImpl.java:314) - Releasing JDBC connection
 [2013-11-24 13:18:05,177]DEBUG 11428[AWT-EventQueue-0] - org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.releaseConnection(LogicalConnectionImpl.java:332) - Released JDBC connection
 [2013-11-24 13:18:05,179]DEBUG 11430[AWT-EventQueue-0] - org.hibernate.engine.jdbc.internal.proxy.ConnectionProxyHandler.physicalConnectionReleased(ConnectionProxyHandler.java:219) - HHH000163: Logical connection releasing its physical connection
+[2013-11-24 18:27:51,293]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:33:46,610]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:33:46,626]DEBUG    16[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:33:46,641]DEBUG    31[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:04,347]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:04,347]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:04,347]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:04,363]DEBUG    16[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:49,599]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:49,599]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:49,599]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:35:49,615]DEBUG    16[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:36:26,631]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:36:33,725]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:36:33,725]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:36:33,725]DEBUG     0[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
+[2013-11-24 18:36:33,741]DEBUG    16[main] - ee.ut.math.tvt.salessystem.ui.model.StockTableModel.addItem(StockTableModel.java:50) - Added Product 1 quantity of 10
