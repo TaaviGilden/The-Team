@@ -1,51 +1,11 @@
-2013-11-25 20:34:31,229 [main] DEBUG - Strating SalesSystem with the Swing UI ..
-2013-11-25 20:34:31,448 [main] INFO - 6 items loaded from disk
-2013-11-25 20:34:31,448 [main] INFO - 1 clients loaded from disk
-2013-11-25 20:34:31,464 [main] INFO - 25 Sales loaded from disk
-2013-11-25 20:34:31,698 [main] INFO - SalesSystem started
-2013-11-25 20:34:33,010 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:34:36,229 [AWT-EventQueue-0] INFO - New sale process started
-2013-11-25 20:34:36,229 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:34:38,870 [AWT-EventQueue-0] INFO - Client Toomas with ID=1 got selected.
-2013-11-25 20:34:38,870 [AWT-EventQueue-0] INFO - New purchase started
-2013-11-25 20:34:39,667 [AWT-EventQueue-0] DEBUG - Added Layz krõpsud quantity of 1
-2013-11-25 20:34:44,534 [AWT-EventQueue-0] INFO - Sale complete
-2013-11-25 20:34:44,534 [AWT-EventQueue-0] DEBUG - Contents of the current basket:
-Id	Name	Price	Quantity	Sum	
-null	Layz krõpsud	10.5	1	10.5	
-
-2013-11-25 20:34:45,525 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:34:47,354 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:34:50,057 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:34:50,713 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:34:52,854 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:34:54,416 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:34:55,291 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:34:57,479 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:00,698 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:01,042 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:35:01,354 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:01,651 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:01,901 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:02,120 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:35:02,385 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:02,620 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:02,870 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:03,089 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:35:03,385 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:04,026 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:04,292 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:04,510 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:35:06,276 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:06,463 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:14,464 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:14,995 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:35:40,152 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:35:57,417 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:40:22,579 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
-2013-11-25 20:40:23,066 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:40:24,876 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:40:26,128 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:40:26,471 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
-2013-11-25 20:40:26,768 [AWT-EventQueue-0] INFO - 6 items loaded from disk
-2013-11-25 20:40:28,925 [AWT-EventQueue-0] INFO - SalesSystem closed
+2013-11-25 22:36:39,723 [main] DEBUG - Strating SalesSystem with the Swing UI ..
+2013-11-25 22:36:39,941 [main] INFO - 6 items loaded from disk
+2013-11-25 22:36:39,957 [main] INFO - 1 clients loaded from disk
+2013-11-25 22:36:39,973 [main] INFO - 26 Sales loaded from disk
+2013-11-25 22:36:40,207 [main] INFO - SalesSystem started
+2013-11-25 22:36:41,801 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
+2013-11-25 22:36:50,176 [AWT-EventQueue-0] INFO - 6 items loaded from disk
+2013-11-25 22:36:53,598 [AWT-EventQueue-0] INFO - 1 clients loaded from disk
+2013-11-25 22:36:55,723 [AWT-EventQueue-0] INFO - 26 Sales loaded from disk
+2013-11-25 22:36:58,583 [AWT-EventQueue-0] INFO - 6 items loaded from disk
+2013-11-25 22:37:01,098 [AWT-EventQueue-0] INFO - SalesSystem closed

@@ -39,11 +39,6 @@ public class Sale implements DisplayableItem {
 		this.soldItems = new HashSet<SoldItem>();
 	}
 
-	public Sale(List<SoldItem> goods) {
-		this.soldItems = new HashSet<SoldItem>(goods);
-		this.sellingTime = new Date();
-	}
-
 	public Sale(Client client) {
 		this.client = client;
 		this.soldItems = new HashSet<SoldItem>();
@@ -84,12 +79,6 @@ public class Sale implements DisplayableItem {
 	public void addSoldItem(SoldItem item) {
 		item.setSale(this);
 		soldItems.add(item);
-	}
-
-	public void addStockItem(StockItem item, int quantity) {
-		SoldItem soldItem = new SoldItem(item, quantity);
-		addSoldItem(soldItem);
-
 	}
 
 	public double getSum() {
