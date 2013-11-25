@@ -4,19 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ee.ut.math.tvt.salessystem.domain.data.Client;
-import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 
 /**
  * Client model.
  */
 public class ClientTableModel extends SalesSystemTableModel<Client> {
 	private static final long serialVersionUID = 1L;
-	
+
 	private ArrayList<Client> rows;
 
 	public ClientTableModel() {
-		
-		super(new String[] { "Id", "First name", "Discount"});
+
+		super(new String[] { "Id", "First name", "Discount" });
 		rows = new ArrayList<Client>();
 	}
 

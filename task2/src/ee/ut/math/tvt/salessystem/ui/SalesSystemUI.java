@@ -1,23 +1,27 @@
 package ee.ut.math.tvt.salessystem.ui;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JFrame;
+import javax.swing.JTabbedPane;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+
+import org.apache.log4j.Logger;
+
 import com.jgoodies.looks.windows.WindowsLookAndFeel;
+
 import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
 import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
 import ee.ut.math.tvt.salessystem.ui.tabs.ClientTab;
 import ee.ut.math.tvt.salessystem.ui.tabs.HistoryTab;
 import ee.ut.math.tvt.salessystem.ui.tabs.PurchaseTab;
 import ee.ut.math.tvt.salessystem.ui.tabs.StockTab;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import javax.swing.JFrame;
-import javax.swing.JTabbedPane;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
-import org.apache.log4j.Logger;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
 /**
  * Graphical user interface of the sales system.
@@ -40,7 +44,9 @@ public class SalesSystemUI extends JFrame {
 
 	/**
 	 * Constructs sales system GUI.
-	 * @param domainController Sales domain controller.
+	 * 
+	 * @param domainController
+	 *            Sales domain controller.
 	 */
 	public SalesSystemUI(SalesDomainController domainController) {
 		this.domainController = domainController;
@@ -103,16 +109,14 @@ public class SalesSystemUI extends JFrame {
 				case 3:
 					clientTab.refresh();
 					break;
-			    default:
-			        break;
-				}        
+				default:
+					break;
+				}
 			}
 
 		});
-		
+
 		getContentPane().add(tabbedPane);
 	}
 
 }
-
-

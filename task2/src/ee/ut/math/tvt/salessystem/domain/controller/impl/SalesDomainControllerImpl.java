@@ -1,5 +1,12 @@
 package ee.ut.math.tvt.salessystem.domain.controller.impl;
 
+import java.util.Date;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 import ee.ut.math.tvt.salessystem.domain.controller.SalesDomainController;
 import ee.ut.math.tvt.salessystem.domain.data.Client;
 import ee.ut.math.tvt.salessystem.domain.data.Sale;
@@ -7,11 +14,6 @@ import ee.ut.math.tvt.salessystem.domain.data.SoldItem;
 import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 import ee.ut.math.tvt.salessystem.ui.model.SalesSystemModel;
 import ee.ut.math.tvt.salessystem.util.HibernateUtil;
-import java.util.Date;
-import java.util.List;
-import org.apache.log4j.Logger;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 
 /**
  * Implementation of the sales domain controller.
@@ -64,12 +66,7 @@ public class SalesDomainControllerImpl implements SalesDomainController {
 		Transaction tx = session.beginTransaction();
 
 		// construct new sale object
-		// Sale sale = new Sale(soldItems);
-		// sale.setId(null);
 		sale.setSellingTime(new Date());
-
-		// set client who made the sale
-		// sale.setClient(currentClient);
 
 		// Reduce quantities of stockItems in warehouse
 		for (SoldItem item : sale.getSoldItems()) {

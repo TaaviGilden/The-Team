@@ -13,10 +13,13 @@ public class VerificationFailedException extends Exception {
 	public VerificationFailedException() {
 		super();
 	}
-	
+
 	/**
-	 * Constructs new <code>VerificationFailedException</code> with  with the specified detail message.
-	 * @param message the detail message.
+	 * Constructs new <code>VerificationFailedException</code> with with the
+	 * specified detail message.
+	 * 
+	 * @param message
+	 *            the detail message.
 	 */
 	public VerificationFailedException(final String message) {
 		super(message);
