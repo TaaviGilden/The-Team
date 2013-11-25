@@ -187,6 +187,12 @@ public class StockTab {
                     JOptionPane.ERROR_MESSAGE
             );
         }
+        
+        
     }
+    
+    public void refresh() {
+        model.getWarehouseTableModel().populateWithData(controller.getAllStockItems());
 
+    }
 }

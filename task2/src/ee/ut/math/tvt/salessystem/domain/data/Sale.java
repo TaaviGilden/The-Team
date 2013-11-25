@@ -1,9 +1,11 @@
 package ee.ut.math.tvt.salessystem.domain.data;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -35,11 +37,17 @@ public class Sale implements DisplayableItem {
 
     /** Empty constructors are used by hibernate */
     public Sale() {
-    }
+    } 
 
     public Sale(List<SoldItem> goods) {
         this.soldItems = new HashSet<SoldItem>(goods);
         this.sellingTime = new Date();
+    }
+    
+    //muuda veel
+    public Sale(Client client){
+    	this.client = client;
+    	this.soldItems = new ArrayList<>(); //? what's this
     }
 
     public Client getClient() {
@@ -74,6 +82,12 @@ public class Sale implements DisplayableItem {
         this.id = id;
     }
 
+    //quantity thing
+    /*User chooses the product and adds it to the cart:
+    StockItem stockItem = …
+    // create the SoldItem object if needed and add it to the sale 
+     * or use already existing one and change the quantity
+    */
     public void addSoldItem(SoldItem item) {
         item.setSale(this);
         soldItems.add(item);

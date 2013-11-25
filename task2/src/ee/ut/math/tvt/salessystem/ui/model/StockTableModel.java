@@ -1,5 +1,6 @@
 package ee.ut.math.tvt.salessystem.ui.model;
 
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 import org.apache.log4j.Logger;
@@ -12,10 +13,13 @@ import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 public class StockTableModel extends SalesSystemTableModel<StockItem> {
 	private static final long serialVersionUID = 1L;
 
+	private ArrayList<StockItem> rows;
+
 	private static final Logger log = Logger.getLogger(StockTableModel.class);
 
 	public StockTableModel() {
 		super(new String[] {"Id", "Name", "Price", "Quantity"});
+		rows = new ArrayList<>();
 	}
 
 	@Override

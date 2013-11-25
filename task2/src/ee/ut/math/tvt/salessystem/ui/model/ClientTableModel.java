@@ -1,5 +1,7 @@
 package ee.ut.math.tvt.salessystem.ui.model;
 
+import java.util.List;
+
 import ee.ut.math.tvt.salessystem.domain.data.Client;
 
 /**
@@ -33,7 +35,7 @@ public class ClientTableModel extends SalesSystemTableModel<Client> {
 			buffer.append(headers[i] + "\t");
 		buffer.append("\n");
 
-		for (final Client client : rows) {
+		for (final Client client : this.getTableRows()) {
 			buffer.append(client.getId() + "\t");
 			buffer.append(client.getFirstName() + "\t");
 			buffer.append(client.getDiscountPercentage() + "\t");
@@ -41,5 +43,23 @@ public class ClientTableModel extends SalesSystemTableModel<Client> {
 		}
 
 		return buffer.toString();
+	}
+
+	@Override
+	public int getRowCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Object getValueAt(int rowIndex, int columnIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Client> getTableRows() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
