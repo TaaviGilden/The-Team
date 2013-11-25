@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Intro" basedir="." default="main">
 
-	<property name="lib.dir" value="lib" />
-	<property name="src.dir" value="src" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="src.dir" value="${basedir}/src" />
 	<property name="test.dir" value="${basedir}/test" />
 
-	<property name="build.dir" value="build" />
+	<property name="build.dir" value="${basedir}/build" />
 	<property name="classes.dir" value="${build.dir}/classes" />
-	<property name="jar.dir" value="${build.dir}/jar" />
+	<property name="build.test.dir" value="${build.dir}/test" />
+	<property name="jar.dir" value="${builddir}/jar" />
 	<property name="conf.dir" value="${basedir}/conf" />
 	<!-- database variables -->
 	<property name="data.dir" value="${basedir}/data" />
@@ -15,7 +16,7 @@
 	<property name="db.alias" value="POS" />
 	<property name="db.url" value="jdbc:hsqldb:hsql://localhost/POS" />
 	<property name="lib.hibernate.dir" value="${lib.dir}/hibernate" />
-	<property name="build.test.dir" value="${build.dir}/test" />
+
 
 	<path id="libs">
 		<fileset dir="${lib.dir}">
@@ -25,9 +26,9 @@
 
 	<path id="run.classpath">
 		<pathelement location="${classes.dir}" />
-		<path refid="compile.classpath" />
 		<!-- configuration -->
 		<pathelement location="${conf.dir}" />
+
 		<fileset dir="${lib.dir}">
 			<include name="*.jar" />
 		</fileset>
@@ -45,7 +46,7 @@
 	</path>
 
 	<path id="test.classpath">
-		<pathelement path="${build.classes.dir}/" />
+		<pathelement path="${classes.dir}/" />
 		<pathelement path="${conf.dir}" />
 		<pathelement path="${build.test.dir}/" />
 		<fileset dir="${lib.dir}">
@@ -71,21 +72,13 @@
 	</target>
 
 	<target name="build">
+		<mkdir dir="${build.dir}" />
 		<mkdir dir="${classes.dir}" />
 		<javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="compile.classpath" includeantruntime="false" debug="true" debuglevel="lines,vars,source" encoding="utf-8" compiler="modern" target="1.7" source="1.7" />
 		<copy file="${src.dir}/log4j.properties" todir="${classes.dir}" overwrite="true" />
 		<copy todir="${jar.dir}">
 			<fileset dir="." includes="**/*.properties **/*.png" />
 		</copy>
-	</target>
-
-	<target name="build-tests" depends="build" description="Build the system">
-		<mkdir dir="${build.test.dir}" />
-		<javac srcdir="${test.dir}" destdir="${build.test.dir}" debug="true" debuglevel="lines,vars,source" encoding="utf-8" compiler="modern" target="1.7" source="1.7" classpathref="test.classpath" includeantruntime="false">
-		</javac>
-		<classpath>
-			<pathelement path="${build.classes.dir}" />
-		</classpath>
 	</target>
 
 	<target name="dist" depends="build">
@@ -136,6 +129,13 @@
 		</java>
 	</target>
 
+
+	<target name="build-tests" depends="build" description="Build the system">
+		<mkdir dir="${build.test.dir}" />
+		<javac srcdir="${test.dir}" destdir="${build.test.dir}" debug="true" debuglevel="lines,vars,source" encoding="utf-8" compiler="modern" target="1.7" source="1.7" classpathref="test.classpath" includeantruntime="false">
+		</javac>
+	</target>
+
 	<target name="test" depends="build-tests" description="Run the template application">
 
 		<junit>
@@ -146,7 +146,6 @@
 				<fileset dir="${build.test.dir}" includes="**/*.class" />
 			</batchtest>
 		</junit>
-
 
 	</target>
 

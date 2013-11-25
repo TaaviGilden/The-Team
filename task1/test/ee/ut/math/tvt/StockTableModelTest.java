@@ -43,7 +43,7 @@ public class StockTableModelTest {
 	@Test(expected = NoSuchElementException.class)
 	public void testGetItemByIdWhenThrowsException() {
 		stockTableModel.addItem(stockItem1);
-		assertEquals(stockTableModel.getItemById(1l).getId(), 1l, 1e-7);
+		assertEquals(stockTableModel.getItemById(2l).getId(), 1l, 1e-7);
 	}
 
 }

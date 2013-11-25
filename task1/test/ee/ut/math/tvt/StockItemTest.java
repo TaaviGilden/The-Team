@@ -12,7 +12,7 @@ public class StockItemTest {
 
 	@Before
 	public void setUp() {
-		stockItem1 = new StockItem(1L, "Tuborg", "Õlu", 2.0, 10);
+		stockItem1 = new StockItem(1L, "Tuborg", "6lu", 2.0, 10);
 	}
 
 	@Test

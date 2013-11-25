@@ -27,11 +27,11 @@ public class HistoryItemTest {
 	@Before
 	public void setUp() {
 
-		soldItem1 = new SoldItem(new StockItem(1L, "Walter", "Odav õlu", 0.5),
+		soldItem1 = new SoldItem(new StockItem(1L, "Walter", "Odav 6lu", 0.5),
 				90);
 		soldItem2 = new SoldItem(
-				new StockItem(2L, "Saku Kuld", "Kehv õlu", 1.5), 60);
-		soldItem3 = new SoldItem(new StockItem(3L, "Corona Extra", "Hea õlu",
+				new StockItem(2L, "Saku Kuld", "Kehv 6lu", 1.5), 60);
+		soldItem3 = new SoldItem(new StockItem(3L, "Corona Extra", "Hea 6lu",
 				2.0), 20);
 		soldItems = new ArrayList<>();
 

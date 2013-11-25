@@ -16,7 +16,7 @@ public class PurchaseInfoTableModelTest {
 
 	@Before
 	public void setUp() {
-		stockItem1 = new StockItem(1L, "Alexander", "Õlu", 2.0, 5);
+		stockItem1 = new StockItem(1L, "Alexander", "6lu", 2.0, 5);
 		soldItem1 = new SoldItem(stockItem1, 5);
 		soldItem1.setId(1L);
 		purchaseInfoTableModel = new PurchaseInfoTableModel();
