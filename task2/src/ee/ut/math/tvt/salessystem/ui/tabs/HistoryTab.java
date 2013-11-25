@@ -32,7 +32,7 @@ public class HistoryTab {
 
     private PurchaseInfoTableModel historyDetailsTableModel;
 
-    public HistoryTab(SalesSystemModel model) {
+    public HistoryTab(SalesSystemModel model, SalesDomainController controller) {
         this.model = model;
         this.controller = controller;
     }
@@ -123,6 +123,7 @@ public class HistoryTab {
     
     public void refresh() {
         model.getPurchaseHistoryTableModel().populateWithData(controller.getAllSales());
+        model.getPurchaseHistoryTableModel().fireTableDataChanged();
     }
 
 }

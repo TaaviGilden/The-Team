@@ -19,7 +19,7 @@ public class ClientTab {
     
     private SalesDomainController controller;
     
-    public ClientTab(SalesSystemModel model) {
+    public ClientTab(SalesSystemModel model, SalesDomainController controller) {
         this.model = model;
         this.controller = controller;
     } 
@@ -72,5 +72,6 @@ public class ClientTab {
     
     public void refresh() {
         model.getClientTableModel().populateWithData(controller.getAllClients());
+        model.getClientTableModel().fireTableDataChanged();
     }
 }
