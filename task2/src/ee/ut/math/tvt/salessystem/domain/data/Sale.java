@@ -37,6 +37,7 @@ public class Sale implements DisplayableItem {
 
     /** Empty constructors are used by hibernate */
     public Sale() {
+        this.soldItems = new HashSet<SoldItem>();
     } 
 
     public Sale(List<SoldItem> goods) {
@@ -44,10 +45,9 @@ public class Sale implements DisplayableItem {
         this.sellingTime = new Date();
     }
     
-    //muuda veel
     public Sale(Client client){
     	this.client = client;
-    	this.soldItems = new ArrayList<>(); //? what's this
+    	this.soldItems = new HashSet<SoldItem>();
     }
 
     public Client getClient() {
@@ -82,15 +82,16 @@ public class Sale implements DisplayableItem {
         this.id = id;
     }
 
-    //quantity thing
-    /*User chooses the product and adds it to the cart:
-    StockItem stockItem = …
-    // create the SoldItem object if needed and add it to the sale 
-     * or use already existing one and change the quantity
-    */
+ 
     public void addSoldItem(SoldItem item) {
         item.setSale(this);
         soldItems.add(item);
+    }
+    
+    public void addStockItem(StockItem item, int quantity) {
+        SoldItem soldItem = new SoldItem(item, quantity);
+        addSoldItem(soldItem);
+        
     }
 
     public double getSum() {

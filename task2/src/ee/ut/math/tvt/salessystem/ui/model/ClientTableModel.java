@@ -1,17 +1,23 @@
 package ee.ut.math.tvt.salessystem.ui.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import ee.ut.math.tvt.salessystem.domain.data.Client;
+import ee.ut.math.tvt.salessystem.domain.data.StockItem;
 
 /**
  * Client model.
  */
 public class ClientTableModel extends SalesSystemTableModel<Client> {
 	private static final long serialVersionUID = 1L;
+	
+	private ArrayList<Client> rows;
 
 	public ClientTableModel() {
+		
 		super(new String[] { "Id", "First name", "Discount"});
+		rows = new ArrayList<Client>();
 	}
 
 	@Override
@@ -46,20 +52,8 @@ public class ClientTableModel extends SalesSystemTableModel<Client> {
 	}
 
 	@Override
-	public int getRowCount() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public Object getValueAt(int rowIndex, int columnIndex) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public List<Client> getTableRows() {
 		// TODO Auto-generated method stub
-		return null;
+		return rows;
 	}
 }

@@ -17,6 +17,8 @@ import javax.swing.ListSelectionModel;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import org.hibernate.dialect.FirebirdDialect;
+
 
 /**
  * Encapsulates everything that has to do with the purchase tab (the tab
@@ -120,8 +122,7 @@ public class HistoryTab {
     }
     
     public void refresh() {
-        model.getPurchaseHistoryTableModel().populateWithData(controller.getAllStockItems());
-
+        model.getPurchaseHistoryTableModel().populateWithData(controller.getAllSales());
     }
 
 }

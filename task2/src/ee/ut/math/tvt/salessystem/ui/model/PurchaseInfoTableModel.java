@@ -24,6 +24,7 @@ public class PurchaseInfoTableModel extends SalesSystemTableModel<SoldItem> {
 
     public PurchaseInfoTableModel() {
         super(new String[] { "Id", "Name", "Price", "Quantity", "Sum"});
+        this.sale = new Sale();
     }
 
 	public PurchaseInfoTableModel(SalesSystemModel model) {
@@ -143,8 +144,8 @@ public class PurchaseInfoTableModel extends SalesSystemTableModel<SoldItem> {
         fireTableDataChanged();
     }
 
-	@Override
-	public int getRowCount() {
+	
+	/*public int getRowCount() {
 		// TODO Auto-generated method stub
 		return sale.getSoldItems().size();
 	}
@@ -153,7 +154,7 @@ public class PurchaseInfoTableModel extends SalesSystemTableModel<SoldItem> {
 	public Object getValueAt(int rowIndex, int columnIndex) {
 		// TODO Auto-generated method stub
 		return getColumnValue(getTableRows().get(rowIndex), columnIndex);
-	}
+	}*/
 
 	@Override
 	public List<SoldItem> getTableRows() {
@@ -164,5 +165,9 @@ public class PurchaseInfoTableModel extends SalesSystemTableModel<SoldItem> {
 	public void clear() {
 		sale.getSoldItems().clear();
 		fireTableDataChanged();
+	}
+
+	public Sale getSale() {
+		return sale;
 	}
 }

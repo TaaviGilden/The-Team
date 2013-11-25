@@ -42,13 +42,13 @@ public abstract class SalesSystemTableModel<T extends DisplayableItem> extends
         return headers[columnIndex];
     }
 
-    /*public int getRowCount() {
-        return rows.size();
+    public int getRowCount() {
+        return this.getTableRows().size();
     }
 
     public Object getValueAt(final int rowIndex, final int columnIndex) {
-        return getColumnValue(rows.get(rowIndex), columnIndex);
-    }*/
+        return getColumnValue(this.getTableRows().get(rowIndex), columnIndex);
+    }
 
     // search for item with the specified id
     public T getItemById(final long id) {
@@ -69,6 +69,7 @@ public abstract class SalesSystemTableModel<T extends DisplayableItem> extends
     public void populateWithData(final List<T> data) {
         this.getTableRows().clear();
         this.getTableRows().addAll(data);
+        fireTableDataChanged();
     }
     
     public void addRow(T row) {

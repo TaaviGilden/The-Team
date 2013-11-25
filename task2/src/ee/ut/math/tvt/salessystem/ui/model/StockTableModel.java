@@ -1,6 +1,7 @@
 package ee.ut.math.tvt.salessystem.ui.model;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.apache.log4j.Logger;
@@ -19,7 +20,7 @@ public class StockTableModel extends SalesSystemTableModel<StockItem> {
 
 	public StockTableModel() {
 		super(new String[] {"Id", "Name", "Price", "Quantity"});
-		rows = new ArrayList<>();
+		rows = new ArrayList<StockItem>();
 	}
 
 	@Override
@@ -97,6 +98,12 @@ public class StockTableModel extends SalesSystemTableModel<StockItem> {
 		}
 
 		return buffer.toString();
+	}
+
+	@Override
+	public List<StockItem> getTableRows() {
+		// TODO Auto-generated method stub
+		return rows;
 	}
 
 }
